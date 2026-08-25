@@ -1,0 +1,142 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 720" width="900" height="720" font-family="'Malgun Gothic','Apple SD Gothic Neo','Noto Sans KR',sans-serif">
+
+  <defs>
+    <g id="pose">
+      <line x1="-4" y1="0" x2="-4" y2="-14" stroke="#1f5fa8" stroke-width="3.5" stroke-linecap="round"/>
+      <line x1="4" y1="0" x2="4" y2="-14" stroke="#1f5fa8" stroke-width="3.5" stroke-linecap="round"/>
+      <rect x="-5" y="-31" width="10" height="18" rx="2.5" fill="#2f74c0"/>
+      <circle cx="0" cy="-36" r="5" fill="#2f74c0"/>
+    </g>
+  </defs>
+
+  <rect width="900" height="720" fill="#ffffff"/>
+
+  <text x="450" y="32" text-anchor="middle" font-size="20" font-weight="bold" fill="#111827">프레임 수를 바꾸면 &#8220;판정 프레임&#8221; 숫자도 같이 확인해야 합니다</text>
+  <text x="450" y="55" text-anchor="middle" font-size="12.5" fill="#6b7280">안 맞으면 에러도 경고창도 없이 조용히 실패합니다</text>
+
+  <!-- ═══════════ ① 정상 ═══════════ -->
+  <text x="50" y="96" font-size="13.5" font-weight="bold" fill="#15803d">○ 정상 — 프레임 6장, 판정은 4번에서 발동</text>
+
+  <g>
+    <rect x="50" y="110" width="80" height="80" fill="#f6f7f9" stroke="#9ca3af" stroke-width="1.2"/>
+    <use href="#pose" x="90" y="168"/>
+    <line x1="98" y1="146" x2="112" y2="156" stroke="#8a7863" stroke-width="3" stroke-linecap="round"/>
+
+    <rect x="136" y="110" width="80" height="80" fill="#f6f7f9" stroke="#9ca3af" stroke-width="1.2"/>
+    <use href="#pose" x="176" y="168"/>
+    <line x1="184" y1="144" x2="196" y2="132" stroke="#8a7863" stroke-width="3" stroke-linecap="round"/>
+
+    <rect x="222" y="110" width="80" height="80" fill="#f6f7f9" stroke="#9ca3af" stroke-width="1.2"/>
+    <use href="#pose" x="262" y="168"/>
+    <line x1="270" y1="142" x2="276" y2="126" stroke="#8a7863" stroke-width="3" stroke-linecap="round"/>
+
+    <rect x="308" y="110" width="80" height="80" fill="#fff4f4" stroke="#dc2626" stroke-width="2.5"/>
+    <use href="#pose" x="348" y="168"/>
+    <line x1="356" y1="146" x2="374" y2="152" stroke="#8a7863" stroke-width="3" stroke-linecap="round"/>
+    <path d="M372 138 L380 148 L370 150 L378 162 L364 152 L372 150 Z" fill="#f0a93b"/>
+
+    <rect x="394" y="110" width="80" height="80" fill="#f6f7f9" stroke="#9ca3af" stroke-width="1.2"/>
+    <use href="#pose" x="434" y="168"/>
+    <line x1="442" y1="150" x2="460" y2="158" stroke="#8a7863" stroke-width="3" stroke-linecap="round"/>
+
+    <rect x="480" y="110" width="80" height="80" fill="#f6f7f9" stroke="#9ca3af" stroke-width="1.2"/>
+    <use href="#pose" x="520" y="168"/>
+    <line x1="528" y1="148" x2="540" y2="158" stroke="#8a7863" stroke-width="3" stroke-linecap="round"/>
+  </g>
+
+  <g font-size="11" fill="#6b7280" text-anchor="middle">
+    <text x="90" y="207">1</text>
+    <text x="176" y="207">2</text>
+    <text x="262" y="207">3</text>
+    <text x="348" y="207" font-weight="bold" fill="#dc2626">4</text>
+    <text x="434" y="207">5</text>
+    <text x="520" y="207">6</text>
+  </g>
+  <text x="348" y="224" text-anchor="middle" font-size="10.5" font-weight="bold" fill="#dc2626">여기서 판정</text>
+
+  <rect x="590" y="110" width="270" height="98" rx="4" fill="#f3f4f6" stroke="#9ca3af" stroke-width="1.4"/>
+  <text x="604" y="130" font-size="10.5" font-weight="bold" fill="#6b7280">Inspector</text>
+  <text x="604" y="155" font-size="11.5" fill="#374151">Attack1 Frames</text>
+  <rect x="770" y="143" width="76" height="18" rx="3" fill="#ffffff" stroke="#c9ced6" stroke-width="1"/>
+  <text x="808" y="156" text-anchor="middle" font-size="11" fill="#1f2937">Size  6</text>
+  <text x="604" y="185" font-size="11.5" font-weight="bold" fill="#374151">Attack1 Damage Frame</text>
+  <rect x="770" y="173" width="76" height="18" rx="3" fill="#ffffff" stroke="#dc2626" stroke-width="1.4"/>
+  <text x="808" y="186" text-anchor="middle" font-size="11" font-weight="bold" fill="#dc2626">4</text>
+  <text x="604" y="202" font-size="10" fill="#15803d">4 ≤ 6 이므로 정상 발동</text>
+
+  <!-- ═══════════ ② 실패 ═══════════ -->
+  <text x="50" y="272" font-size="13.5" font-weight="bold" fill="#b91c1c">✕ 프레임을 4장으로 줄였는데 판정 번호는 5로 남겨둔 경우</text>
+
+  <g>
+    <rect x="50" y="286" width="80" height="80" fill="#f6f7f9" stroke="#9ca3af" stroke-width="1.2"/>
+    <use href="#pose" x="90" y="344"/>
+    <line x1="98" y1="322" x2="112" y2="332" stroke="#8a7863" stroke-width="3" stroke-linecap="round"/>
+
+    <rect x="136" y="286" width="80" height="80" fill="#f6f7f9" stroke="#9ca3af" stroke-width="1.2"/>
+    <use href="#pose" x="176" y="344"/>
+    <line x1="184" y1="318" x2="196" y2="308" stroke="#8a7863" stroke-width="3" stroke-linecap="round"/>
+
+    <rect x="222" y="286" width="80" height="80" fill="#f6f7f9" stroke="#9ca3af" stroke-width="1.2"/>
+    <use href="#pose" x="262" y="344"/>
+    <line x1="270" y1="320" x2="288" y2="326" stroke="#8a7863" stroke-width="3" stroke-linecap="round"/>
+
+    <rect x="308" y="286" width="80" height="80" fill="#f6f7f9" stroke="#9ca3af" stroke-width="1.2"/>
+    <use href="#pose" x="348" y="344"/>
+    <line x1="356" y1="326" x2="374" y2="334" stroke="#8a7863" stroke-width="3" stroke-linecap="round"/>
+
+    <rect x="394" y="286" width="80" height="80" fill="#fafafa" stroke="#dc2626" stroke-width="2" stroke-dasharray="6 4"/>
+    <text x="434" y="330" text-anchor="middle" font-size="26" fill="#e6b8b8">?</text>
+    <text x="434" y="350" text-anchor="middle" font-size="10" fill="#c98b8b">없음</text>
+
+    <rect x="480" y="286" width="80" height="80" fill="#fafafa" stroke="#e5e7eb" stroke-width="1.2" stroke-dasharray="6 4"/>
+    <text x="520" y="332" text-anchor="middle" font-size="10" fill="#d1d5db">없음</text>
+  </g>
+
+  <g font-size="11" fill="#6b7280" text-anchor="middle">
+    <text x="90" y="383">1</text>
+    <text x="176" y="383">2</text>
+    <text x="262" y="383">3</text>
+    <text x="348" y="383">4</text>
+    <text x="434" y="383" font-weight="bold" fill="#dc2626">5</text>
+    <text x="520" y="383" fill="#d1d5db">6</text>
+  </g>
+  <text x="434" y="400" text-anchor="middle" font-size="10.5" font-weight="bold" fill="#dc2626">판정이 여기를 가리킴</text>
+
+  <rect x="590" y="286" width="270" height="98" rx="4" fill="#f3f4f6" stroke="#9ca3af" stroke-width="1.4"/>
+  <text x="604" y="306" font-size="10.5" font-weight="bold" fill="#6b7280">Inspector</text>
+  <text x="604" y="331" font-size="11.5" fill="#374151">Attack1 Frames</text>
+  <rect x="770" y="319" width="76" height="18" rx="3" fill="#ffffff" stroke="#2f74c0" stroke-width="1.4"/>
+  <text x="808" y="332" text-anchor="middle" font-size="11" font-weight="bold" fill="#2f74c0">Size  4</text>
+  <text x="604" y="361" font-size="11.5" font-weight="bold" fill="#374151">Attack1 Damage Frame</text>
+  <rect x="770" y="349" width="76" height="18" rx="3" fill="#fff4f4" stroke="#dc2626" stroke-width="1.6"/>
+  <text x="808" y="362" text-anchor="middle" font-size="11" font-weight="bold" fill="#dc2626">5</text>
+  <text x="604" y="378" font-size="10" fill="#b91c1c">5 &gt; 4 — 존재하지 않는 프레임</text>
+
+  <rect x="50" y="416" width="810" height="52" rx="5" fill="#fdf2f2" stroke="#e0a0a0" stroke-width="1.5"/>
+  <text x="70" y="438" font-size="12.5" font-weight="bold" fill="#b91c1c">결과 — 때려도 몬스터가 안 맞습니다. 그런데 에러 메시지가 없습니다.</text>
+  <text x="70" y="458" font-size="11.5" fill="#7f3d3d">애니메이션은 정상 재생되기 때문에 &#8220;그림은 잘 나오는데 왜 안 맞지?&#8221; 상태로 한참 헤매게 됩니다.</text>
+
+  <!-- ═══════════ 구분선 ═══════════ -->
+  <line x1="50" y1="496" x2="850" y2="496" stroke="#e5e7eb" stroke-width="1.5"/>
+
+  <!-- ═══════════ 확인할 필드 목록 ═══════════ -->
+  <text x="50" y="524" font-size="14.5" font-weight="bold" fill="#111827">프레임 수를 바꿨다면 — 이 숫자들을 같이 확인하세요</text>
+
+  <rect x="50" y="540" width="392" height="128" rx="5" fill="#f9fafb" stroke="#d1d5db" stroke-width="1.2"/>
+  <text x="66" y="562" font-size="12.5" font-weight="bold" fill="#1f5fa8">플레이어 · 몬스터 공통</text>
+  <text x="66" y="585" font-size="11.5" fill="#4b5563">Attack1 / Attack2 <tspan font-weight="bold">Damage Frame</tspan> — 맞는 순간</text>
+  <text x="66" y="606" font-size="11.5" fill="#4b5563">Attack1 / Attack2 <tspan font-weight="bold">Swing Frame</tspan> — 효과음이 나는 순간</text>
+  <text x="66" y="627" font-size="11.5" fill="#4b5563">Attack1 <tspan font-weight="bold">Effect Start Frame</tspan> — 이펙트가 나오는 순간</text>
+  <text x="66" y="652" font-size="10.5" fill="#9ca3af">※ 필드 이름은 캐릭터마다 조금씩 다릅니다</text>
+
+  <rect x="468" y="540" width="392" height="128" rx="5" fill="#fdf8ee" stroke="#d9c4a0" stroke-width="1.4"/>
+  <text x="484" y="562" font-size="12.5" font-weight="bold" fill="#a8721f">몬스터 C — 특히 주의</text>
+  <text x="484" y="585" font-size="11.5" fill="#4b5563">Attack1 <tspan font-weight="bold">Projectile Frame</tspan> — 투사체가 발사되는 순간</text>
+  <text x="484" y="608" font-size="11.5" fill="#7a5c22">이 숫자가 프레임 수보다 크면</text>
+  <text x="484" y="628" font-size="11.5" font-weight="bold" fill="#b91c1c">투사체가 영원히 안 나갑니다.</text>
+  <text x="484" y="652" font-size="10.5" fill="#9ca3af">가장 자주 걸리는 함정입니다</text>
+
+  <rect x="50" y="682" width="810" height="26" rx="4" fill="#f0f7f2" stroke="#86b89a" stroke-width="1.2"/>
+  <text x="66" y="700" font-size="11.5" fill="#15803d">안전장치 — 숫자가 안 맞으면 <tspan font-weight="bold">Console 창에 경고</tspan>가 뜹니다. 작업할 때 Console을 켜두고, 프레임을 바꾼 뒤엔 반드시 Play로 실제 타격을 확인하세요.</text>
+
+</svg>

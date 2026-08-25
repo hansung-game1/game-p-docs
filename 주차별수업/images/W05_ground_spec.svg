@@ -1,0 +1,122 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 640" width="900" height="640" font-family="'Malgun Gothic','Apple SD Gothic Neo','Noto Sans KR',sans-serif">
+
+  <defs>
+    <pattern id="checker" width="12" height="12" patternUnits="userSpaceOnUse">
+      <rect width="12" height="12" fill="#ffffff"/>
+      <rect width="6" height="6" fill="#e9e9ec"/>
+      <rect x="6" y="6" width="6" height="6" fill="#e9e9ec"/>
+    </pattern>
+
+    <g id="char">
+      <line x1="-5" y1="0" x2="-4" y2="-22" stroke="#1f5fa8" stroke-width="5" stroke-linecap="round"/>
+      <line x1="5" y1="0" x2="4" y2="-22" stroke="#1f5fa8" stroke-width="5" stroke-linecap="round"/>
+      <line x1="-8" y1="-40" x2="-16" y2="-28" stroke="#2f74c0" stroke-width="4" stroke-linecap="round"/>
+      <line x1="8" y1="-40" x2="17" y2="-31" stroke="#2f74c0" stroke-width="4" stroke-linecap="round"/>
+      <rect x="-8" y="-46" width="16" height="26" rx="4" fill="#2f74c0"/>
+      <circle cx="0" cy="-54" r="8" fill="#2f74c0"/>
+    </g>
+  </defs>
+
+  <rect width="900" height="640" fill="#ffffff"/>
+
+  <!-- ─────────── 제목 ─────────── -->
+  <text x="450" y="32" text-anchor="middle" font-size="20" font-weight="bold" fill="#111827">바닥 아트는 얇은 띠가 아니라 화면 전체 크기입니다</text>
+  <text x="450" y="55" text-anchor="middle" font-size="12.5" fill="#6b7280">04_Art / StudentReplace / StageGround /  ground1.png ~ ground7.png</text>
+
+  <!-- ═══════════ ① 파일 ═══════════ -->
+  <text x="75" y="90" font-size="13.5" font-weight="bold" fill="#111827">① 내가 만드는 파일</text>
+  <text x="222" y="90" font-size="12.5" fill="#6b7280">PNG · 1920 × 1080px</text>
+
+  <rect x="75" y="105" width="336" height="189" fill="#fafafa"/>
+  <rect x="75" y="105" width="336" height="189" fill="url(#checker)"/>
+
+  <!-- 지면(불투명 영역) -->
+  <path d="M75 259 L133 256 L196 260 L258 255 L318 259 L370 256 L411 259 L411 294 L75 294 Z" fill="#8a6f52"/>
+  <path d="M75 259 L133 256 L196 260 L258 255 L318 259 L370 256 L411 259" fill="none" stroke="#6d5740" stroke-width="2"/>
+
+  <!-- 200px 치수 -->
+  <line x1="105" y1="259" x2="105" y2="294" stroke="#ffffff" stroke-width="1.5"/>
+  <polygon points="105,259 101,266 109,266" fill="#ffffff"/>
+  <polygon points="105,294 101,287 109,287" fill="#ffffff"/>
+  <text x="116" y="281" font-size="12" font-weight="bold" fill="#ffffff">200px</text>
+
+  <!-- 지면선 -->
+  <line x1="75" y1="259" x2="411" y2="259" stroke="#dc2626" stroke-width="2" stroke-dasharray="7 4"/>
+  <text x="243" y="251" text-anchor="middle" font-size="11.5" font-weight="bold" fill="#dc2626">지면 표면 — 아래에서 200px</text>
+
+  <text x="243" y="175" text-anchor="middle" font-size="13" font-weight="bold" fill="#4b5563">이 위쪽은 전부 투명</text>
+  <text x="243" y="194" text-anchor="middle" font-size="11.5" fill="#9ca3af">불투명하면 뒤의 배경이 가려집니다</text>
+
+  <rect x="75" y="105" width="336" height="189" fill="none" stroke="#374151" stroke-width="1.5"/>
+
+  <!-- ═══════════ 화살표 ═══════════ -->
+  <line x1="428" y1="199" x2="480" y2="199" stroke="#9ca3af" stroke-width="2.5"/>
+  <polygon points="490,199 478,193 478,205" fill="#9ca3af"/>
+
+  <!-- ═══════════ ② 게임 화면 ═══════════ -->
+  <text x="505" y="90" font-size="13.5" font-weight="bold" fill="#111827">② 게임 화면에서</text>
+
+  <rect x="505" y="105" width="336" height="189" fill="#cfe4f2"/>
+  <path d="M505 214 L575 186 L640 208 L710 178 L780 205 L841 190 L841 259 L505 259 Z" fill="#a9c4d6"/>
+  <path d="M505 234 L560 216 L625 236 L700 214 L775 235 L841 222 L841 259 L505 259 Z" fill="#8fb0c6"/>
+
+  <use href="#char" x="640" y="259"/>
+
+  <path d="M505 259 L563 256 L626 260 L688 255 L748 259 L800 256 L841 259 L841 294 L505 294 Z" fill="#8a6f52"/>
+  <path d="M505 259 L563 256 L626 260 L688 255 L748 259 L800 256 L841 259" fill="none" stroke="#6d5740" stroke-width="2"/>
+
+  <line x1="505" y1="259" x2="841" y2="259" stroke="#dc2626" stroke-width="2" stroke-dasharray="7 4"/>
+
+  <line x1="640" y1="285" x2="700" y2="278" stroke="#dc2626" stroke-width="1.5"/>
+  <circle cx="640" cy="259" r="3.5" fill="#dc2626"/>
+  <text x="706" y="282" font-size="11.5" font-weight="bold" fill="#dc2626">발이 닿는 높이</text>
+
+  <rect x="505" y="105" width="336" height="189" fill="none" stroke="#374151" stroke-width="1.5"/>
+
+  <text x="505" y="316" font-size="11.5" fill="#6b7280">배경(뒤) → 캐릭터 → 바닥(앞) 순서로 그려집니다</text>
+
+  <!-- ═══════════ 구분선 ═══════════ -->
+  <line x1="75" y1="345" x2="841" y2="345" stroke="#e5e7eb" stroke-width="1.5"/>
+
+  <!-- ═══════════ 하단 : 앞에 그려진다는 것의 의미 ═══════════ -->
+  <text x="75" y="375" font-size="14.5" font-weight="bold" fill="#111827">★ 바닥은 캐릭터보다 &#8220;앞&#8221;에 그려집니다 — 200px 선 위에 칠한 것은 캐릭터를 가립니다</text>
+
+  <!-- ❌ -->
+  <rect x="75" y="395" width="336" height="130" fill="#cfe4f2"/>
+  <path d="M75 440 L140 424 L205 442 L275 420 L345 441 L411 428 L411 490 L75 490 Z" fill="#8fb0c6"/>
+  <use href="#char" x="200" y="490"/>
+  <path d="M75 455 L140 452 L205 458 L275 451 L345 456 L411 453 L411 525 L75 525 Z" fill="#8a6f52"/>
+  <path d="M75 455 L140 452 L205 458 L275 451 L345 456 L411 453" fill="none" stroke="#6d5740" stroke-width="2"/>
+  <line x1="75" y1="490" x2="411" y2="490" stroke="#dc2626" stroke-width="2" stroke-dasharray="7 4"/>
+  <rect x="344" y="473" width="60" height="16" rx="3" fill="#ffffff" opacity="0.92"/>
+  <text x="398" y="485" text-anchor="end" font-size="10.5" font-weight="bold" fill="#dc2626">200px 선</text>
+  <rect x="75" y="395" width="336" height="130" fill="none" stroke="#374151" stroke-width="1.5"/>
+
+  <text x="75" y="551" font-size="13" font-weight="bold" fill="#b91c1c">✕  선보다 위를 두껍게 칠한 경우</text>
+  <text x="75" y="571" font-size="12" fill="#4b5563">바닥 그림이 캐릭터 다리를 덮어버립니다.</text>
+  <text x="75" y="589" font-size="12" fill="#4b5563">지면을 두껍게 표현하고 싶다면 200px 선 아래로만.</text>
+
+  <!-- ⭕ -->
+  <rect x="505" y="395" width="336" height="130" fill="#cfe4f2"/>
+  <path d="M505 440 L570 424 L635 442 L705 420 L775 441 L841 428 L841 490 L505 490 Z" fill="#8fb0c6"/>
+  <use href="#char" x="630" y="490"/>
+  <path d="M505 490 L570 487 L635 492 L705 486 L775 491 L841 488 L841 525 L505 525 Z" fill="#8a6f52"/>
+  <path d="M505 490 L570 487 L635 492 L705 486 L775 491 L841 488" fill="none" stroke="#6d5740" stroke-width="2"/>
+  <g fill="#5f7a3f">
+    <path d="M540 490 L536 474 L544 480 L548 468 L552 480 L560 474 L556 490 Z"/>
+    <path d="M690 490 L686 477 L694 482 L698 471 L702 482 L710 477 L706 490 Z"/>
+    <path d="M790 490 L786 478 L794 483 L798 472 L802 483 L810 478 L806 490 Z"/>
+  </g>
+  <ellipse cx="600" cy="487" rx="18" ry="9" fill="#7d7466"/>
+  <line x1="505" y1="490" x2="841" y2="490" stroke="#dc2626" stroke-width="2" stroke-dasharray="7 4"/>
+  <rect x="774" y="473" width="60" height="16" rx="3" fill="#ffffff" opacity="0.92"/>
+  <text x="828" y="485" text-anchor="end" font-size="10.5" font-weight="bold" fill="#dc2626">200px 선</text>
+  <rect x="505" y="395" width="336" height="130" fill="none" stroke="#374151" stroke-width="1.5"/>
+
+  <text x="505" y="551" font-size="13" font-weight="bold" fill="#15803d">○  낮은 풀 · 돌만 살짝 올린 경우</text>
+  <text x="505" y="571" font-size="12" fill="#4b5563">캐릭터가 그 뒤로 지나가면서 깊이감이 생깁니다.</text>
+  <text x="505" y="589" font-size="12" fill="#4b5563">완성 단계에서 적극적으로 활용해보세요.</text>
+
+  <text x="450" y="622" text-anchor="middle" font-size="11" fill="#9ca3af">※ 캐릭터가 딛는 실제 충돌 판정은 그림과 별개인 평평한 박스입니다 — 지면 그림이 울퉁불퉁해도 됩니다</text>
+
+</svg>

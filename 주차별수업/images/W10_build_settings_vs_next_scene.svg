@@ -1,0 +1,123 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 700" width="900" height="700" font-family="'Malgun Gothic','Apple SD Gothic Neo','Noto Sans KR',sans-serif">
+
+  <rect width="900" height="700" fill="#ffffff"/>
+
+  <text x="450" y="32" text-anchor="middle" font-size="20" font-weight="bold" fill="#111827">씬 목록과 씬 연결은 서로 다른 것입니다</text>
+  <text x="450" y="55" text-anchor="middle" font-size="12.5" fill="#6b7280">둘 다 맞아야 빌드에서 게임이 이어집니다</text>
+
+  <!-- ═══════════ 좌 : Build Settings ═══════════ -->
+  <text x="50" y="94" font-size="13.5" font-weight="bold" fill="#111827">① Build Settings &gt; Scenes In Build</text>
+  <text x="50" y="113" font-size="12" fill="#6b7280">&#8220;빌드에 이 씬들을 넣어라&#8221;</text>
+
+  <rect x="50" y="126" width="330" height="200" rx="4" fill="#f3f4f6" stroke="#9ca3af" stroke-width="1.5"/>
+
+  <rect x="50" y="126" width="330" height="26" rx="4" fill="#dfe3e8"/>
+  <text x="64" y="144" font-size="11.5" font-weight="bold" fill="#4b5563">Scenes In Build</text>
+
+  <g font-size="12.5" fill="#1f2937">
+    <rect x="58" y="160" width="12" height="12" rx="2" fill="#2f74c0"/>
+    <path d="M60.5 166 L63 168.5 L67.5 163" stroke="#ffffff" stroke-width="1.8" fill="none"/>
+    <text x="80" y="171" font-weight="bold">Title</text>
+    <text x="362" y="171" text-anchor="end" font-weight="bold" fill="#dc2626">0</text>
+
+    <rect x="58" y="190" width="12" height="12" rx="2" fill="#2f74c0"/>
+    <path d="M60.5 196 L63 198.5 L67.5 193" stroke="#ffffff" stroke-width="1.8" fill="none"/>
+    <text x="80" y="201">IntroCutscene</text>
+    <text x="362" y="201" text-anchor="end" fill="#9ca3af">1</text>
+
+    <rect x="58" y="220" width="12" height="12" rx="2" fill="#2f74c0"/>
+    <path d="M60.5 226 L63 228.5 L67.5 223" stroke="#ffffff" stroke-width="1.8" fill="none"/>
+    <text x="80" y="231">BackgroundTest</text>
+    <text x="362" y="231" text-anchor="end" fill="#9ca3af">2</text>
+
+    <rect x="58" y="250" width="12" height="12" rx="2" fill="#2f74c0"/>
+    <path d="M60.5 256 L63 258.5 L67.5 253" stroke="#ffffff" stroke-width="1.8" fill="none"/>
+    <text x="80" y="261">EndingCutscene</text>
+    <text x="362" y="261" text-anchor="end" fill="#9ca3af">3</text>
+
+    <rect x="58" y="284" width="12" height="12" rx="2" fill="#ffffff" stroke="#9ca3af" stroke-width="1.4"/>
+    <text x="80" y="295" fill="#9ca3af">ActionTest</text>
+    <text x="362" y="295" text-anchor="end" fill="#d1d5db">–</text>
+  </g>
+
+  <line x1="330" y1="166" x2="404" y2="150" stroke="#dc2626" stroke-width="1.4"/>
+  <text x="410" y="147" font-size="11.5" font-weight="bold" fill="#dc2626">0번 = 앱을 켜면</text>
+  <text x="410" y="163" font-size="11.5" font-weight="bold" fill="#dc2626">맨 처음 뜨는 씬</text>
+
+  <text x="50" y="348" font-size="11.5" fill="#4b5563">· 목록에 <tspan font-weight="bold">없는 씬은 빌드 안에 존재하지 않습니다</tspan></text>
+  <text x="50" y="367" font-size="11.5" fill="#4b5563">· 테스트 씬(ActionTest 등)은 체크 해제 — 용량만 늘어납니다</text>
+  <text x="50" y="386" font-size="11.5" fill="#b91c1c">· <tspan font-weight="bold">1·2·3 순서는 게임 진행 순서가 아닙니다</tspan> (0번만 의미 있음)</text>
+
+  <!-- ═══════════ 우 : 실제 흐름 ═══════════ -->
+  <text x="470" y="94" font-size="13.5" font-weight="bold" fill="#111827">② 각 씬의 컨트롤러</text>
+  <text x="470" y="113" font-size="12" fill="#6b7280">&#8220;이 화면 다음엔 저 씬으로 가라&#8221; — 실제 흐름</text>
+
+  <g>
+    <rect x="470" y="130" width="200" height="38" rx="5" fill="#e8f0fa" stroke="#2f74c0" stroke-width="1.6"/>
+    <text x="486" y="154" font-size="12.5" font-weight="bold" fill="#1f5fa8">Title</text>
+
+    <line x1="510" y1="168" x2="510" y2="188" stroke="#9ca3af" stroke-width="2"/>
+    <polygon points="510,196 505,185 515,185" fill="#9ca3af"/>
+    <text x="524" y="185" font-size="10.5" fill="#6b7280">시작하기 버튼</text>
+
+    <rect x="470" y="196" width="200" height="38" rx="5" fill="#f6f7f9" stroke="#9ca3af" stroke-width="1.4"/>
+    <text x="486" y="220" font-size="12.5" fill="#374151">IntroCutscene</text>
+
+    <line x1="510" y1="234" x2="510" y2="254" stroke="#9ca3af" stroke-width="2"/>
+    <polygon points="510,262 505,251 515,251" fill="#9ca3af"/>
+    <text x="524" y="251" font-size="10.5" fill="#6b7280">컷신 끝</text>
+
+    <rect x="470" y="262" width="200" height="38" rx="5" fill="#f6f7f9" stroke="#9ca3af" stroke-width="1.4"/>
+    <text x="486" y="286" font-size="12.5" fill="#374151">BackgroundTest</text>
+
+    <line x1="510" y1="300" x2="510" y2="320" stroke="#dc2626" stroke-width="2.4"/>
+    <polygon points="510,328 504,316 516,316" fill="#dc2626"/>
+    <text x="524" y="317" font-size="10.5" font-weight="bold" fill="#dc2626">Next Scene Name</text>
+
+    <rect x="470" y="328" width="200" height="38" rx="5" fill="#f6f7f9" stroke="#9ca3af" stroke-width="1.4"/>
+    <text x="486" y="352" font-size="12.5" fill="#374151">EndingCutscene</text>
+
+    <path d="M670 347 L700 347 L700 149 L670 149" fill="none" stroke="#9ca3af" stroke-width="2"/>
+    <polygon points="662,149 674,144 674,154" fill="#9ca3af"/>
+    <text x="710" y="252" font-size="10.5" fill="#6b7280">타이틀로 복귀</text>
+  </g>
+
+  <text x="470" y="386" font-size="11.5" fill="#4b5563">· 씬을 <tspan font-weight="bold">이름으로</tspan> 직접 지정합니다 — 이것이 실제 &#8220;스테이지 체이닝&#8221;</text>
+
+  <!-- ═══════════ 구분선 ═══════════ -->
+  <line x1="50" y1="418" x2="850" y2="418" stroke="#e5e7eb" stroke-width="1.5"/>
+
+  <!-- ═══════════ 하단 : 어긋났을 때 ═══════════ -->
+  <text x="50" y="448" font-size="15" font-weight="bold" fill="#111827">둘이 어긋나면 — 에러 없이 조용히 멈춥니다</text>
+
+  <rect x="50" y="466" width="360" height="104" rx="5" fill="#f9fafb" stroke="#d1d5db" stroke-width="1.4"/>
+  <text x="66" y="489" font-size="11.5" font-weight="bold" fill="#4b5563">Inspector — StageClearController</text>
+
+  <text x="66" y="518" font-size="11.5" fill="#4b5563">Next Scene Name</text>
+  <rect x="192" y="504" width="202" height="22" rx="3" fill="#ffffff" stroke="#9ca3af" stroke-width="1.2"/>
+  <text x="200" y="520" font-size="11" fill="#1f2937">Stage2_BackgroundTest</text>
+  <path d="M382 512 L388 512 L385 517 Z" fill="#4b5563"/>
+
+  <text x="66" y="547" font-size="11.5" font-weight="bold" fill="#dc2626">(Build Settings에 없음)</text>
+  <text x="66" y="563" font-size="10.5" fill="#9ca3af">드롭다운이 이렇게 미리 알려줍니다</text>
+
+  <line x1="418" y1="518" x2="466" y2="518" stroke="#dc2626" stroke-width="2"/>
+  <polygon points="476,518 464,512 464,524" fill="#dc2626"/>
+
+  <rect x="490" y="480" width="200" height="76" rx="5" fill="#f3f4f6" stroke="#d1d5db" stroke-width="1.4" stroke-dasharray="6 4"/>
+  <text x="590" y="512" text-anchor="middle" font-size="12.5" fill="#9ca3af">Stage2_BackgroundTest</text>
+  <text x="590" y="533" text-anchor="middle" font-size="11" fill="#9ca3af">빌드 안에 없음</text>
+  <line x1="524" y1="490" x2="656" y2="546" stroke="#dc2626" stroke-width="2" opacity="0.55"/>
+  <line x1="656" y1="490" x2="524" y2="546" stroke="#dc2626" stroke-width="2" opacity="0.55"/>
+
+  <text x="710" y="505" font-size="12" font-weight="bold" fill="#b91c1c">화면이 안 넘어감</text>
+  <text x="710" y="524" font-size="11" fill="#6b7280">크래시가 안 나서</text>
+  <text x="710" y="540" font-size="11" fill="#6b7280">더 찾기 어렵습니다</text>
+
+  <rect x="50" y="592" width="800" height="62" rx="5" fill="#f0f7f2" stroke="#86b89a" stroke-width="1.5"/>
+  <text x="70" y="616" font-size="13" font-weight="bold" fill="#15803d">해결 — 두 가지를 다 확인하세요</text>
+  <text x="70" y="639" font-size="12" fill="#3f6b52">① Build Settings 목록에 그 씬이 있고 체크되어 있는가    ② Next Scene Name이 그 씬을 가리키고 있는가</text>
+
+  <text x="450" y="682" text-anchor="middle" font-size="11" fill="#9ca3af">※ 에디터에서 Play할 때는 이 목록과 무관하게 잘 됩니다 — 그래서 &#8220;에디터에선 되는데 빌드에서 안 되는&#8221; 문제가 여기서 나옵니다</text>
+
+</svg>

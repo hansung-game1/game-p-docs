@@ -1,0 +1,129 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 720" width="900" height="720" font-family="'Malgun Gothic','Apple SD Gothic Neo','Noto Sans KR',sans-serif">
+
+  <rect width="900" height="720" fill="#ffffff"/>
+
+  <text x="450" y="32" text-anchor="middle" font-size="20" font-weight="bold" fill="#111827">버튼은 3장이 한 세트, 그리고 세 화면이 같은 규격을 씁니다</text>
+  <text x="450" y="55" text-anchor="middle" font-size="12.5" fill="#6b7280">디자인은 자유, 픽셀 크기는 고정</text>
+
+  <!-- ═══════════ ① 3상태 ═══════════ -->
+  <text x="50" y="96" font-size="13.5" font-weight="bold" fill="#111827">① 마우스로 누르는 버튼은 상태별로 3장</text>
+
+  <rect x="50" y="110" width="169" height="45" rx="6" fill="#e8eef5" stroke="#6b87a8" stroke-width="2"/>
+  <text x="134" y="139" text-anchor="middle" font-size="14" font-weight="bold" fill="#3f5a78">시작하기</text>
+  <text x="134" y="176" text-anchor="middle" font-size="12" font-weight="bold" fill="#374151">_normal</text>
+  <text x="134" y="193" text-anchor="middle" font-size="10.5" fill="#6b7280">평소</text>
+
+  <rect x="240" y="110" width="169" height="45" rx="6" fill="#f7fbff" stroke="#2f74c0" stroke-width="2.5"/>
+  <text x="324" y="139" text-anchor="middle" font-size="14" font-weight="bold" fill="#1f5fa8">시작하기</text>
+  <text x="324" y="176" text-anchor="middle" font-size="12" font-weight="bold" fill="#374151">_hover</text>
+  <text x="324" y="193" text-anchor="middle" font-size="10.5" fill="#6b7280">마우스를 올렸을 때</text>
+
+  <rect x="430" y="114" width="169" height="45" rx="6" fill="#c9d6e4" stroke="#48607c" stroke-width="2"/>
+  <text x="514" y="143" text-anchor="middle" font-size="14" font-weight="bold" fill="#2c4159">시작하기</text>
+  <text x="514" y="176" text-anchor="middle" font-size="12" font-weight="bold" fill="#374151">_click</text>
+  <text x="514" y="193" text-anchor="middle" font-size="10.5" fill="#6b7280">눌렀을 때</text>
+
+  <line x1="50" y1="105" x2="219" y2="105" stroke="#9ca3af" stroke-width="1"/>
+  <line x1="50" y1="101" x2="50" y2="109" stroke="#9ca3af" stroke-width="1"/>
+  <line x1="219" y1="101" x2="219" y2="109" stroke="#9ca3af" stroke-width="1"/>
+
+  <rect x="632" y="110" width="218" height="86" rx="5" fill="#fdf2f2" stroke="#e0a0a0" stroke-width="1.4"/>
+  <text x="648" y="132" font-size="12" font-weight="bold" fill="#b91c1c">3장 다 같은 픽셀 크기</text>
+  <text x="648" y="153" font-size="11.5" fill="#7f3d3d">크기가 다르면 마우스를 올릴 때마다</text>
+  <text x="648" y="170" font-size="11.5" fill="#7f3d3d">버튼이 덜컹거립니다.</text>
+  <text x="648" y="189" font-size="10.5" fill="#a37070">모바일 터치 버튼만 2상태 (normal / pressed)</text>
+
+  <!-- ═══════════ ② 세 화면이 같은 규격 ═══════════ -->
+  <line x1="50" y1="222" x2="850" y2="222" stroke="#e5e7eb" stroke-width="1.5"/>
+
+  <text x="50" y="252" font-size="14.5" font-weight="bold" fill="#111827">② 메뉴 버튼은 세 화면이 전부 같은 규격입니다 — 한 벌 만들어 재사용하세요</text>
+  <text x="50" y="271" font-size="11.5" fill="#6b7280">아래는 1920 × 1080 화면 안에서의 실제 비율입니다</text>
+
+  <!-- 타이틀 -->
+  <text x="45" y="294" font-size="12" font-weight="bold" fill="#374151">타이틀 화면 — 버튼 5종</text>
+  <rect x="45" y="300" width="260" height="146" fill="#eef3f7"/>
+  <text x="112" y="345" text-anchor="middle" font-size="13" font-weight="bold" fill="#adbcc9">GAME LOGO</text>
+  <g fill="#cfdbe6" stroke="#8ba2b8" stroke-width="1">
+    <rect x="200" y="312" width="42" height="11" rx="2"/>
+    <rect x="200" y="327" width="42" height="11" rx="2"/>
+    <rect x="200" y="342" width="42" height="11" rx="2"/>
+    <rect x="200" y="357" width="42" height="11" rx="2"/>
+    <rect x="200" y="372" width="42" height="11" rx="2"/>
+  </g>
+  <rect x="45" y="300" width="260" height="146" fill="none" stroke="#374151" stroke-width="1.3"/>
+
+  <!-- 일시정지 -->
+  <text x="320" y="294" font-size="12" font-weight="bold" fill="#374151">일시정지 메뉴 — 버튼 6종</text>
+  <rect x="320" y="300" width="260" height="146" fill="#dde5ea"/>
+  <rect x="326" y="306" width="80" height="21" rx="2" fill="#c3cfd8"/>
+  <rect x="558" y="306" width="16" height="16" rx="8" fill="#c3cfd8"/>
+  <g fill="#cfdbe6" stroke="#8ba2b8" stroke-width="1">
+    <rect x="429" y="336" width="42" height="11" rx="2"/>
+    <rect x="429" y="351" width="42" height="11" rx="2"/>
+    <rect x="429" y="366" width="42" height="11" rx="2"/>
+    <rect x="429" y="381" width="42" height="11" rx="2"/>
+    <rect x="429" y="396" width="42" height="11" rx="2"/>
+    <rect x="429" y="411" width="42" height="11" rx="2"/>
+  </g>
+  <rect x="320" y="300" width="260" height="146" fill="none" stroke="#374151" stroke-width="1.3"/>
+
+  <!-- 사망 -->
+  <text x="595" y="294" font-size="12" font-weight="bold" fill="#374151">사망 화면 — 버튼 3종</text>
+  <rect x="595" y="300" width="260" height="146" fill="#e5e0e2"/>
+  <rect x="678" y="310" width="95" height="68" rx="3" fill="#cfc3c7" stroke="#a89298" stroke-width="1"/>
+  <text x="725" y="348" text-anchor="middle" font-size="9" fill="#8a7379">deathcut</text>
+  <g fill="#cfdbe6" stroke="#8ba2b8" stroke-width="1">
+    <rect x="704" y="390" width="42" height="11" rx="2"/>
+    <rect x="704" y="405" width="42" height="11" rx="2"/>
+    <rect x="704" y="420" width="42" height="11" rx="2"/>
+  </g>
+  <rect x="595" y="300" width="260" height="146" fill="none" stroke="#374151" stroke-width="1.3"/>
+
+  <!-- 공통 규격 밴드 -->
+  <path d="M221 318 L221 462 M450 428 L450 462 M725 428 L725 462" stroke="#2f74c0" stroke-width="1.2" stroke-dasharray="4 3" fill="none"/>
+  <line x1="221" y1="462" x2="725" y2="462" stroke="#2f74c0" stroke-width="1.8"/>
+  <rect x="330" y="470" width="286" height="26" rx="13" fill="#e8f0fa" stroke="#2f74c0" stroke-width="1.5"/>
+  <text x="473" y="488" text-anchor="middle" font-size="12.5" font-weight="bold" fill="#1f5fa8">이 버튼들은 전부 307 × 82px</text>
+
+  <!-- ═══════════ ③ 팝업 공유 ═══════════ -->
+  <line x1="50" y1="520" x2="850" y2="520" stroke="#e5e7eb" stroke-width="1.5"/>
+
+  <text x="50" y="548" font-size="14.5" font-weight="bold" fill="#111827">③ 조작설명 · 설정 팝업은 두 화면이 같은 파일을 씁니다</text>
+
+  <rect x="50" y="562" width="130" height="104" rx="4" fill="#f9fafb" stroke="#9ca3af" stroke-width="1.3"/>
+  <text x="115" y="583" text-anchor="middle" font-size="11.5" font-weight="bold" fill="#374151">UI / Title 폴더</text>
+  <rect x="72" y="592" width="42" height="50" rx="3" fill="#e3ecf4" stroke="#8ba2b8" stroke-width="1"/>
+  <text x="93" y="620" text-anchor="middle" font-size="8" fill="#6b87a8">controls</text>
+  <rect x="120" y="592" width="42" height="50" rx="3" fill="#e3ecf4" stroke="#8ba2b8" stroke-width="1"/>
+  <text x="141" y="620" text-anchor="middle" font-size="8" fill="#6b87a8">settings</text>
+  <text x="115" y="658" text-anchor="middle" font-size="10" fill="#9ca3af">602 × 715px</text>
+
+  <path d="M188 600 L226 600" stroke="#9ca3af" stroke-width="2"/>
+  <polygon points="234,600 222,594 222,606" fill="#9ca3af"/>
+  <path d="M188 632 L226 632" stroke="#9ca3af" stroke-width="2"/>
+  <polygon points="234,632 222,626 222,638" fill="#9ca3af"/>
+
+  <rect x="244" y="562" width="150" height="46" rx="4" fill="#eef3f7" stroke="#8ba2b8" stroke-width="1.3"/>
+  <text x="319" y="590" text-anchor="middle" font-size="12" fill="#3f5a78">타이틀 화면에서 사용</text>
+
+  <rect x="244" y="620" width="150" height="46" rx="4" fill="#eef3f7" stroke="#8ba2b8" stroke-width="1.3"/>
+  <text x="319" y="648" text-anchor="middle" font-size="12" fill="#3f5a78">일시정지 메뉴에서도 사용</text>
+
+  <rect x="418" y="562" width="200" height="104" rx="5" fill="#f0f7f2" stroke="#86b89a" stroke-width="1.4"/>
+  <text x="434" y="584" font-size="12" font-weight="bold" fill="#15803d">여기서 만들면 양쪽 다 적용</text>
+  <text x="434" y="605" font-size="11.5" fill="#3f6b52">일시정지 쪽에 따로 만들 필요</text>
+  <text x="434" y="622" font-size="11.5" fill="#3f6b52">없습니다.</text>
+  <text x="434" y="645" font-size="11" fill="#6b9a7d">단, <tspan font-weight="bold">두 화면 어디에 놓아도</tspan></text>
+  <text x="434" y="661" font-size="11" fill="#6b9a7d">어울리는 디자인이어야 합니다.</text>
+
+  <rect x="642" y="562" width="208" height="104" rx="5" fill="#fdf8ee" stroke="#d9c4a0" stroke-width="1.4"/>
+  <text x="658" y="584" font-size="12" font-weight="bold" fill="#a8721f">크기가 틀어졌다면</text>
+  <text x="658" y="606" font-size="11.5" fill="#4b5563">Unity에서 그 오브젝트 선택 →</text>
+  <text x="658" y="624" font-size="11.5" fill="#4b5563">Inspector의 <tspan font-weight="bold">Image</tspan> 컴포넌트 →</text>
+  <rect x="658" y="632" width="112" height="19" rx="3" fill="#ffffff" stroke="#9ca3af" stroke-width="1.1"/>
+  <text x="714" y="645" text-anchor="middle" font-size="10.5" font-weight="bold" fill="#374151">Set Native Size</text>
+  <text x="658" y="663" font-size="10.5" fill="#9ca3af">원래 크기로 복구 · 위치는 안 바뀜</text>
+
+  <text x="450" y="700" text-anchor="middle" font-size="11" fill="#9ca3af">※ 버튼의 화면상 <tspan font-weight="bold">위치는 자유</tspan>입니다 — Scene 뷰에서 옮겨도 그림과 클릭 영역이 같이 움직입니다</text>
+
+</svg>

@@ -1,0 +1,71 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 640" width="900" height="640" font-family="'Malgun Gothic','Apple SD Gothic Neo','Noto Sans KR',sans-serif">
+
+  <rect width="900" height="640" fill="#ffffff"/>
+
+  <text x="450" y="34" text-anchor="middle" font-size="20" font-weight="bold" fill="#111827">설치하는 프로그램 4개, 무엇이 무엇인가</text>
+  <text x="450" y="57" text-anchor="middle" font-size="12.5" fill="#6b7280">둘씩 짝입니다 &#8212; 관리하는 쪽과, 실제로 다루는 쪽</text>
+
+  <!-- ═══════════ 왼쪽 : Unity ═══════════ -->
+  <text x="60" y="94" font-size="13.5" font-weight="bold" fill="#111827">Unity 쪽 &#8212; 게임을 만든다</text>
+
+  <rect x="60" y="108" width="340" height="96" rx="5" fill="#e8f0fa" stroke="#2f74c0" stroke-width="1.6"/>
+  <text x="80" y="136" font-size="14.5" font-weight="bold" fill="#1f5fa8">Unity Hub</text>
+  <text x="80" y="158" font-size="12" fill="#4b5563">버전을 설치·관리하고 프로젝트를 여는 <tspan font-weight="bold">런처</tspan></text>
+  <text x="80" y="180" font-size="11.5" fill="#6b7280">· 설치된 버전 목록   · 내 프로젝트 목록</text>
+  <text x="80" y="196" font-size="11.5" fill="#9ca3af">여기서는 게임을 만들지 않습니다</text>
+
+  <line x1="230" y1="204" x2="230" y2="250" stroke="#9ca3af" stroke-width="2"/>
+  <polygon points="230,258 224,246 236,246" fill="#9ca3af"/>
+  <text x="246" y="228" font-size="11" fill="#6b7280">프로젝트 이름을 클릭하면</text>
+  <text x="246" y="243" font-size="11" fill="#6b7280">아래 프로그램이 실행됨</text>
+
+  <rect x="60" y="258" width="340" height="96" rx="5" fill="#f6f7f9" stroke="#9ca3af" stroke-width="1.5"/>
+  <text x="80" y="286" font-size="14.5" font-weight="bold" fill="#111827">Unity 에디터</text>
+  <text x="80" y="308" font-size="12" fill="#4b5563">실제로 게임을 만드는 프로그램</text>
+  <text x="80" y="330" font-size="11.5" fill="#6b7280">· 그림·사운드 넣기   · 씬 편집   · Play로 확인</text>
+  <text x="80" y="346" font-size="11.5" fill="#9ca3af">여러분이 수업 시간 대부분을 보내는 곳</text>
+
+  <!-- ═══════════ 오른쪽 : GitHub ═══════════ -->
+  <text x="500" y="94" font-size="13.5" font-weight="bold" fill="#111827">GitHub 쪽 &#8212; 만든 것을 저장한다</text>
+
+  <rect x="500" y="108" width="340" height="96" rx="5" fill="#f0f7f2" stroke="#86b89a" stroke-width="1.6"/>
+  <text x="520" y="136" font-size="14.5" font-weight="bold" fill="#15803d">GitHub</text>
+  <text x="520" y="158" font-size="12" fill="#3f6b52">인터넷에 있는 <tspan font-weight="bold">내 저장 공간</tspan> (웹사이트)</text>
+  <text x="520" y="180" font-size="11.5" fill="#6b7280">· 내 저장소 = 123456_kimhansung</text>
+  <text x="520" y="196" font-size="11.5" fill="#9ca3af">컴퓨터가 고장 나도 여기 있는 것은 남습니다</text>
+
+  <line x1="670" y1="204" x2="670" y2="250" stroke="#4b5563" stroke-width="2"/>
+  <polygon points="670,258 664,246 676,246" fill="#4b5563"/>
+  <polygon points="670,204 664,216 676,216" fill="#4b5563"/>
+  <text x="686" y="224" font-size="11" fill="#4b5563"><tspan font-weight="bold">Push</tspan> 내 작업을 올림</text>
+  <text x="686" y="243" font-size="11" fill="#4b5563"><tspan font-weight="bold">Pull</tspan> 올려둔 것을 받음</text>
+
+  <rect x="500" y="258" width="340" height="96" rx="5" fill="#f6f7f9" stroke="#9ca3af" stroke-width="1.5"/>
+  <text x="520" y="286" font-size="14.5" font-weight="bold" fill="#111827">GitHub Desktop</text>
+  <text x="520" y="308" font-size="12" fill="#4b5563">내 컴퓨터와 GitHub 사이를 오가는 프로그램</text>
+  <text x="520" y="330" font-size="11.5" fill="#6b7280">· Commit(묶기) → Push(올리기)   · Pull(받기)</text>
+  <text x="520" y="346" font-size="11.5" fill="#9ca3af">파일을 편집하지는 않습니다 &#8212; 옮기기만 합니다</text>
+
+  <!-- ═══════════ 아래로 모이는 화살표 ═══════════ -->
+  <path d="M230 354 L230 396 L330 396 L330 424" fill="none" stroke="#2f74c0" stroke-width="2"/>
+  <polygon points="330,432 324,420 336,420" fill="#2f74c0"/>
+  <text x="244" y="391" font-size="11" fill="#2f74c0">폴더 안의 파일을 <tspan font-weight="bold">편집</tspan></text>
+
+  <path d="M670 354 L670 396 L570 396 L570 424" fill="none" stroke="#15803d" stroke-width="2"/>
+  <polygon points="570,432 564,420 576,420" fill="#15803d"/>
+  <text x="656" y="391" text-anchor="end" font-size="11" fill="#15803d">폴더의 <tspan font-weight="bold">변경을 감지</tspan>해서 올림</text>
+
+  <!-- ═══════════ 공통 대상 : 프로젝트 폴더 ═══════════ -->
+  <rect x="250" y="432" width="400" height="92" rx="5" fill="#fff8e6" stroke="#c9a227" stroke-width="1.8"/>
+  <text x="450" y="461" text-anchor="middle" font-size="14.5" font-weight="bold" fill="#8a6d1f">내 프로젝트 폴더 (하나뿐)</text>
+  <text x="450" y="484" text-anchor="middle" font-size="11.5" fill="#6b7280">예: D:\GameProject\123456_kimhansung</text>
+  <text x="450" y="506" text-anchor="middle" font-size="11" fill="#9ca3af">Assets / Packages / ProjectSettings / ClassDocs …</text>
+
+  <!-- ═══════════ 핵심 ═══════════ -->
+  <rect x="60" y="540" width="780" height="54" rx="5" fill="#f0f7f2" stroke="#86b89a" stroke-width="1.5"/>
+  <text x="80" y="563" font-size="13" font-weight="bold" fill="#15803d">핵심 &#8212; Unity 에디터와 GitHub Desktop은 같은 폴더를 봅니다</text>
+  <text x="80" y="583" font-size="11.5" fill="#3f6b52">그래서 에디터에서 <tspan font-weight="bold">Ctrl+S로 저장해야</tspan> GitHub Desktop에 &#8220;바뀐 파일&#8221;로 나타납니다. 저장 안 하면 올릴 것이 없습니다.</text>
+
+  <text x="450" y="622" text-anchor="middle" font-size="11.5" fill="#b91c1c">※ Unity Hub의 <tspan font-weight="bold">&#8220;+ 새 프로젝트&#8221;</tspan>를 누르면 빈 프로젝트가 새로 생깁니다. 받아온 폴더는 반드시 <tspan font-weight="bold">&#8220;추가&#8221;</tspan>로 등록하세요.</text>
+
+</svg>

@@ -1,0 +1,150 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 700" width="900" height="700" font-family="'Malgun Gothic','Apple SD Gothic Neo','Noto Sans KR',sans-serif">
+
+  <defs>
+    <pattern id="ck2" width="12" height="12" patternUnits="userSpaceOnUse">
+      <rect width="12" height="12" fill="#ffffff"/>
+      <rect width="6" height="6" fill="#e9e9ec"/>
+      <rect x="6" y="6" width="6" height="6" fill="#e9e9ec"/>
+    </pattern>
+    <pattern id="ck3" width="8" height="8" patternUnits="userSpaceOnUse">
+      <rect width="8" height="8" fill="#ffffff"/>
+      <rect width="4" height="4" fill="#eeeef1"/>
+      <rect x="4" y="4" width="4" height="4" fill="#eeeef1"/>
+    </pattern>
+  </defs>
+
+  <rect width="900" height="700" fill="#ffffff"/>
+
+  <text x="450" y="32" text-anchor="middle" font-size="20" font-weight="bold" fill="#111827">캐릭터는 캔버스 &#8220;아래쪽 가운데&#8221;를 기준으로 그립니다</text>
+  <text x="450" y="55" text-anchor="middle" font-size="12.5" fill="#6b7280">Player · Monsters — PNG · 500 × 500px 정사각형 고정</text>
+
+  <!-- ═══════════ ① 캔버스 한 장 ═══════════ -->
+  <text x="50" y="94" font-size="13.5" font-weight="bold" fill="#111827">① 파일 한 장 (player_idle_01.png)</text>
+
+  <rect x="50" y="108" width="220" height="220" fill="url(#ck2)"/>
+
+  <line x1="160" y1="108" x2="160" y2="328" stroke="#9ca3af" stroke-width="1.2" stroke-dasharray="5 4"/>
+
+  <g>
+    <line x1="152" y1="328" x2="150" y2="288" stroke="#1f5fa8" stroke-width="8" stroke-linecap="round"/>
+    <line x1="168" y1="328" x2="170" y2="288" stroke="#1f5fa8" stroke-width="8" stroke-linecap="round"/>
+    <line x1="146" y1="252" x2="128" y2="278" stroke="#2f74c0" stroke-width="7" stroke-linecap="round"/>
+    <line x1="174" y1="252" x2="194" y2="272" stroke="#2f74c0" stroke-width="7" stroke-linecap="round"/>
+    <rect x="146" y="242" width="28" height="46" rx="7" fill="#2f74c0"/>
+    <circle cx="160" cy="228" r="14" fill="#2f74c0"/>
+  </g>
+
+  <line x1="50" y1="328" x2="270" y2="328" stroke="#dc2626" stroke-width="2.5"/>
+  <circle cx="160" cy="328" r="6" fill="#dc2626"/>
+  <circle cx="160" cy="328" r="11" fill="none" stroke="#dc2626" stroke-width="1.6"/>
+
+  <rect x="50" y="108" width="220" height="220" fill="none" stroke="#374151" stroke-width="1.5"/>
+
+  <text x="160" y="126" text-anchor="middle" font-size="10.5" fill="#9ca3af">500px</text>
+
+  <line x1="180" y1="328" x2="300" y2="352" stroke="#dc2626" stroke-width="1.4"/>
+  <text x="306" y="349" font-size="12.5" font-weight="bold" fill="#dc2626">기준점 (피벗)</text>
+  <text x="306" y="366" font-size="11.5" fill="#4b5563">Unity가 이 지점을 &#8220;바닥에 서는 위치&#8221;로 읽습니다.</text>
+  <text x="306" y="383" font-size="11.5" fill="#4b5563">발이 캔버스 <tspan font-weight="bold">맨 아래 가운데</tspan> 근처에 오도록.</text>
+
+  <!-- ═══════════ ② 좌우 반전 ═══════════ -->
+  <text x="560" y="94" font-size="13.5" font-weight="bold" fill="#111827">② 방향은 한쪽만 그리면 됩니다</text>
+
+  <rect x="560" y="108" width="130" height="130" fill="url(#ck3)"/>
+  <line x1="625" y1="108" x2="625" y2="238" stroke="#9ca3af" stroke-width="1" stroke-dasharray="4 3"/>
+  <g>
+    <line x1="620" y1="238" x2="619" y2="214" stroke="#1f5fa8" stroke-width="5" stroke-linecap="round"/>
+    <line x1="630" y1="238" x2="631" y2="214" stroke="#1f5fa8" stroke-width="5" stroke-linecap="round"/>
+    <line x1="633" y1="192" x2="645" y2="204" stroke="#2f74c0" stroke-width="4.5" stroke-linecap="round"/>
+    <rect x="617" y="186" width="16" height="28" rx="4" fill="#2f74c0"/>
+    <circle cx="625" cy="177" r="8" fill="#2f74c0"/>
+    <circle cx="629" cy="175" r="2" fill="#ffffff"/>
+  </g>
+  <line x1="560" y1="238" x2="690" y2="238" stroke="#dc2626" stroke-width="2"/>
+  <circle cx="625" cy="238" r="4" fill="#dc2626"/>
+  <rect x="560" y="108" width="130" height="130" fill="none" stroke="#374151" stroke-width="1.4"/>
+  <text x="625" y="256" text-anchor="middle" font-size="11" font-weight="bold" fill="#374151">오른쪽 방향만 그림</text>
+
+  <text x="710" y="178" text-anchor="middle" font-size="20" fill="#9ca3af">→</text>
+  <text x="710" y="196" text-anchor="middle" font-size="10" fill="#9ca3af">자동</text>
+
+  <rect x="730" y="108" width="130" height="130" fill="#f6f7f9"/>
+  <line x1="795" y1="108" x2="795" y2="238" stroke="#d1d5db" stroke-width="1" stroke-dasharray="4 3"/>
+  <g>
+    <line x1="800" y1="238" x2="801" y2="214" stroke="#8fa8c4" stroke-width="5" stroke-linecap="round"/>
+    <line x1="790" y1="238" x2="789" y2="214" stroke="#8fa8c4" stroke-width="5" stroke-linecap="round"/>
+    <line x1="787" y1="192" x2="775" y2="204" stroke="#9db6cf" stroke-width="4.5" stroke-linecap="round"/>
+    <rect x="787" y="186" width="16" height="28" rx="4" fill="#9db6cf"/>
+    <circle cx="795" cy="177" r="8" fill="#9db6cf"/>
+    <circle cx="791" cy="175" r="2" fill="#ffffff"/>
+  </g>
+  <line x1="730" y1="238" x2="860" y2="238" stroke="#e0a0a0" stroke-width="2"/>
+  <circle cx="795" cy="238" r="4" fill="#e0a0a0"/>
+  <rect x="730" y="108" width="130" height="130" fill="none" stroke="#d1d5db" stroke-width="1.4" stroke-dasharray="5 4"/>
+  <text x="795" y="256" text-anchor="middle" font-size="11" fill="#9ca3af">Unity가 뒤집어 줌</text>
+
+  <text x="560" y="288" font-size="11.5" fill="#4b5563">왼쪽을 보는 그림은 따로 그리지 않습니다.</text>
+  <text x="560" y="306" font-size="11.5" fill="#4b5563">그래서 <tspan font-weight="bold">기준점이 가운데</tspan>여야 뒤집어도 위치가 안 틀어집니다.</text>
+
+  <!-- ═══════════ 구분선 ═══════════ -->
+  <line x1="50" y1="412" x2="850" y2="412" stroke="#e5e7eb" stroke-width="1.5"/>
+
+  <!-- ═══════════ ③ 모든 동작이 같은 기준 ═══════════ -->
+  <text x="50" y="442" font-size="15" font-weight="bold" fill="#111827">★ 12개 동작 전부가 &#8220;같은 기준선&#8221;을 써야 합니다</text>
+
+  <!-- 좋은 예 -->
+  <g>
+    <rect x="50" y="458" width="96" height="96" fill="url(#ck3)"/>
+    <line x1="98" y1="554" x2="98" y2="458" stroke="#d1d5db" stroke-width="0.8" stroke-dasharray="3 3"/>
+    <g><line x1="94" y1="554" x2="93" y2="536" stroke="#1f5fa8" stroke-width="4" stroke-linecap="round"/><line x1="102" y1="554" x2="103" y2="536" stroke="#1f5fa8" stroke-width="4" stroke-linecap="round"/><rect x="92" y="514" width="12" height="24" rx="3" fill="#2f74c0"/><circle cx="98" cy="507" r="6" fill="#2f74c0"/></g>
+    <rect x="50" y="458" width="96" height="96" fill="none" stroke="#9ca3af" stroke-width="1.2"/>
+    <text x="98" y="571" text-anchor="middle" font-size="10" fill="#6b7280">idle</text>
+
+    <rect x="156" y="458" width="96" height="96" fill="url(#ck3)"/>
+    <line x1="204" y1="554" x2="204" y2="458" stroke="#d1d5db" stroke-width="0.8" stroke-dasharray="3 3"/>
+    <g><line x1="197" y1="554" x2="192" y2="537" stroke="#1f5fa8" stroke-width="4" stroke-linecap="round"/><line x1="210" y1="554" x2="214" y2="538" stroke="#1f5fa8" stroke-width="4" stroke-linecap="round"/><rect x="198" y="514" width="12" height="24" rx="3" fill="#2f74c0"/><circle cx="204" cy="507" r="6" fill="#2f74c0"/></g>
+    <rect x="156" y="458" width="96" height="96" fill="none" stroke="#9ca3af" stroke-width="1.2"/>
+    <text x="204" y="571" text-anchor="middle" font-size="10" fill="#6b7280">walk</text>
+
+    <rect x="262" y="458" width="96" height="96" fill="url(#ck3)"/>
+    <line x1="310" y1="554" x2="310" y2="458" stroke="#d1d5db" stroke-width="0.8" stroke-dasharray="3 3"/>
+    <g><line x1="305" y1="554" x2="302" y2="540" stroke="#1f5fa8" stroke-width="4" stroke-linecap="round"/><line x1="315" y1="554" x2="318" y2="540" stroke="#1f5fa8" stroke-width="4" stroke-linecap="round"/><rect x="304" y="516" width="12" height="24" rx="3" fill="#2f74c0"/><circle cx="310" cy="509" r="6" fill="#2f74c0"/></g>
+    <rect x="262" y="458" width="96" height="96" fill="none" stroke="#9ca3af" stroke-width="1.2"/>
+    <text x="310" y="571" text-anchor="middle" font-size="10" fill="#6b7280">jump</text>
+
+    <line x1="50" y1="554" x2="358" y2="554" stroke="#15803d" stroke-width="2.5"/>
+  </g>
+
+  <text x="50" y="597" font-size="13" font-weight="bold" fill="#15803d">○  기준선이 일치</text>
+  <text x="50" y="617" font-size="11.5" fill="#4b5563">동작이 바뀌어도 발 높이가 그대로입니다.</text>
+  <text x="50" y="635" font-size="11.5" fill="#4b5563"><tspan font-weight="bold">점프도 발을 기준선에 맞춰</tspan> 그립니다 — 위로 띄우는 것은 Unity가 합니다.</text>
+
+  <!-- 나쁜 예 -->
+  <g>
+    <rect x="480" y="458" width="96" height="96" fill="url(#ck3)"/>
+    <g><line x1="524" y1="548" x2="523" y2="530" stroke="#1f5fa8" stroke-width="4" stroke-linecap="round"/><line x1="532" y1="548" x2="533" y2="530" stroke="#1f5fa8" stroke-width="4" stroke-linecap="round"/><rect x="522" y="508" width="12" height="24" rx="3" fill="#2f74c0"/><circle cx="528" cy="501" r="6" fill="#2f74c0"/></g>
+    <line x1="480" y1="548" x2="576" y2="548" stroke="#dc2626" stroke-width="1.6" stroke-dasharray="4 3"/>
+    <rect x="480" y="458" width="96" height="96" fill="none" stroke="#9ca3af" stroke-width="1.2"/>
+    <text x="528" y="571" text-anchor="middle" font-size="10" fill="#6b7280">idle</text>
+
+    <rect x="586" y="458" width="96" height="96" fill="url(#ck3)"/>
+    <g><line x1="627" y1="536" x2="622" y2="520" stroke="#1f5fa8" stroke-width="4" stroke-linecap="round"/><line x1="640" y1="536" x2="644" y2="521" stroke="#1f5fa8" stroke-width="4" stroke-linecap="round"/><rect x="628" y="497" width="12" height="24" rx="3" fill="#2f74c0"/><circle cx="634" cy="490" r="6" fill="#2f74c0"/></g>
+    <line x1="586" y1="536" x2="682" y2="536" stroke="#dc2626" stroke-width="1.6" stroke-dasharray="4 3"/>
+    <rect x="586" y="458" width="96" height="96" fill="none" stroke="#9ca3af" stroke-width="1.2"/>
+    <text x="634" y="571" text-anchor="middle" font-size="10" fill="#6b7280">walk</text>
+
+    <rect x="692" y="458" width="96" height="96" fill="url(#ck3)"/>
+    <g><line x1="736" y1="554" x2="733" y2="540" stroke="#1f5fa8" stroke-width="4" stroke-linecap="round"/><line x1="746" y1="554" x2="749" y2="540" stroke="#1f5fa8" stroke-width="4" stroke-linecap="round"/><rect x="735" y="516" width="12" height="24" rx="3" fill="#2f74c0"/><circle cx="741" cy="509" r="6" fill="#2f74c0"/></g>
+    <line x1="692" y1="554" x2="788" y2="554" stroke="#dc2626" stroke-width="1.6" stroke-dasharray="4 3"/>
+    <rect x="692" y="458" width="96" height="96" fill="none" stroke="#9ca3af" stroke-width="1.2"/>
+    <text x="740" y="571" text-anchor="middle" font-size="10" fill="#6b7280">attack</text>
+  </g>
+
+  <text x="480" y="597" font-size="13" font-weight="bold" fill="#b91c1c">✕  동작마다 제각각</text>
+  <text x="480" y="617" font-size="11.5" fill="#4b5563">동작이 바뀔 때마다 캐릭터가 <tspan font-weight="bold">위아래로 튑니다.</tspan></text>
+  <text x="480" y="635" font-size="11.5" fill="#4b5563">바닥에 파묻히거나 붕 떠 보이기도 합니다.</text>
+
+  <rect x="50" y="654" width="800" height="32" rx="5" fill="#f9fafb" stroke="#d1d5db" stroke-width="1.2"/>
+  <text x="66" y="675" font-size="11.5" fill="#4b5563">작업 요령 — 500×500 캔버스에 <tspan font-weight="bold">바닥선 가이드 레이어</tspan>를 하나 깔고, 12개 동작을 전부 그 위에서 작업하세요.   |   ※ 이펙트·투사체는 규칙이 다릅니다 — <tspan font-weight="bold" fill="#a8721f">캔버스 정가운데 기준</tspan></text>
+
+</svg>

@@ -1,0 +1,69 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 560" width="900" height="560" font-family="'Malgun Gothic','Apple SD Gothic Neo','Noto Sans KR',sans-serif">
+
+  <rect width="900" height="560" fill="#ffffff"/>
+
+  <text x="450" y="34" text-anchor="middle" font-size="20" font-weight="bold" fill="#111827">학교와 집 &#8212; GitHub를 가운데 두고 고리를 돕니다</text>
+  <text x="450" y="57" text-anchor="middle" font-size="12.5" fill="#6b7280">두 컴퓨터가 서로 직접 주고받는 것이 아닙니다. <tspan font-weight="bold">항상 GitHub를 거칩니다.</tspan></text>
+
+  <!-- ═══════════ 학교 컴퓨터 ═══════════ -->
+  <rect x="36" y="92" width="230" height="118" rx="6" fill="#e8f0fa" stroke="#2f74c0" stroke-width="1.8"/>
+  <text x="151" y="120" text-anchor="middle" font-size="14" font-weight="bold" fill="#1f5fa8">학교 컴퓨터</text>
+  <text x="151" y="147" text-anchor="middle" font-size="11.5" fill="#4b5563">시작 전에 <tspan font-weight="bold">Pull</tspan></text>
+  <text x="151" y="167" text-anchor="middle" font-size="11.5" fill="#4b5563">수업 시간에 작업</text>
+  <text x="151" y="189" text-anchor="middle" font-size="11.5" fill="#4b5563">끝나면 <tspan font-weight="bold">Push</tspan></text>
+
+  <!-- ═══════════ GitHub ═══════════ -->
+  <rect x="335" y="92" width="230" height="118" rx="6" fill="#ffffff" stroke="#15803d" stroke-width="2"/>
+  <text x="450" y="120" text-anchor="middle" font-size="14" font-weight="bold" fill="#15803d">GitHub (인터넷)</text>
+  <text x="450" y="147" text-anchor="middle" font-size="11.5" fill="#3f6b52">항상 최신 상태를</text>
+  <text x="450" y="167" text-anchor="middle" font-size="11.5" fill="#3f6b52">보관하고 있는 곳</text>
+  <text x="450" y="189" text-anchor="middle" font-size="11.5" font-weight="bold" fill="#3f6b52">여기가 기준입니다</text>
+
+  <!-- ═══════════ 집 컴퓨터 ═══════════ -->
+  <rect x="634" y="92" width="230" height="118" rx="6" fill="#e8f0fa" stroke="#2f74c0" stroke-width="1.8"/>
+  <text x="749" y="120" text-anchor="middle" font-size="14" font-weight="bold" fill="#1f5fa8">집 컴퓨터</text>
+  <text x="749" y="147" text-anchor="middle" font-size="11.5" fill="#4b5563">시작 전에 <tspan font-weight="bold">Pull</tspan></text>
+  <text x="749" y="167" text-anchor="middle" font-size="11.5" fill="#4b5563">이어서 작업</text>
+  <text x="749" y="189" text-anchor="middle" font-size="11.5" fill="#4b5563">끝나면 <tspan font-weight="bold">Push</tspan></text>
+
+  <!-- ═══════════ 위쪽 화살표 (학교 → GitHub → 집) ═══════════ -->
+  <text x="300" y="116" text-anchor="middle" font-size="11.5" font-weight="bold" fill="#15803d">Push</text>
+  <line x1="272" y1="130" x2="318" y2="130" stroke="#15803d" stroke-width="2.2"/>
+  <polygon points="330,130 316,123 316,137" fill="#15803d"/>
+
+  <text x="599" y="116" text-anchor="middle" font-size="11.5" font-weight="bold" fill="#2f74c0">Pull</text>
+  <line x1="571" y1="130" x2="617" y2="130" stroke="#2f74c0" stroke-width="2.2"/>
+  <polygon points="629,130 615,123 615,137" fill="#2f74c0"/>
+
+  <!-- ═══════════ 아래쪽 화살표 (집 → GitHub → 학교) ═══════════ -->
+  <line x1="628" y1="178" x2="582" y2="178" stroke="#15803d" stroke-width="2.2"/>
+  <polygon points="570,178 584,171 584,185" fill="#15803d"/>
+  <text x="599" y="200" text-anchor="middle" font-size="11.5" font-weight="bold" fill="#15803d">Push</text>
+
+  <line x1="329" y1="178" x2="283" y2="178" stroke="#2f74c0" stroke-width="2.2"/>
+  <polygon points="271,178 285,171 285,185" fill="#2f74c0"/>
+  <text x="300" y="200" text-anchor="middle" font-size="11.5" font-weight="bold" fill="#2f74c0">Pull</text>
+
+  <!-- ═══════════ 최초 1회 Clone ═══════════ -->
+  <path d="M450 210 V254 H616" fill="none" stroke="#c9a227" stroke-width="2" stroke-dasharray="6 4"/>
+  <polygon points="628,254 614,247 614,261" fill="#c9a227"/>
+  <text x="522" y="246" text-anchor="middle" font-size="10.5" font-weight="bold" fill="#8a6d1f">최초 1회만</text>
+
+  <rect x="634" y="228" width="230" height="54" rx="5" fill="#fff8e6" stroke="#c9a227" stroke-width="1.6"/>
+  <text x="749" y="250" text-anchor="middle" font-size="12" font-weight="bold" fill="#8a6d1f">집 컴퓨터에는 폴더가 없습니다</text>
+  <text x="749" y="270" text-anchor="middle" font-size="11" fill="#8a6d1f">처음 한 번은 <tspan font-weight="bold">Clone</tspan> &#8212; 그 다음부터 Pull</text>
+
+  <!-- ═══════════ 규칙 ═══════════ -->
+  <rect x="36" y="310" width="828" height="66" rx="5" fill="#f0f7f2" stroke="#86b89a" stroke-width="1.6"/>
+  <text x="450" y="340" text-anchor="middle" font-size="17" font-weight="bold" fill="#15803d">앉자마자 Pull, 일어나기 전에 Push</text>
+  <text x="450" y="363" text-anchor="middle" font-size="12" fill="#3f6b52">둘 중 하나만 습관이 되어도 대부분의 사고는 안 납니다. <tspan font-weight="bold">특히 자리를 뜰 때 Push를 빠뜨리지 마세요.</tspan></text>
+
+  <!-- ═══════════ 경고 ═══════════ -->
+  <rect x="36" y="396" width="828" height="88" rx="5" fill="#fef2f2" stroke="#f0b0b0" stroke-width="1.5"/>
+  <text x="56" y="422" font-size="13" font-weight="bold" fill="#b91c1c">Pull을 안 하고 작업을 시작하면</text>
+  <text x="56" y="446" font-size="11.5" fill="#b91c1c"><tspan font-weight="bold">낡은 상태 위에 새 작업을 얹게 됩니다.</tspan> 나중에 Push를 하면 GitHub가 거부하고, 같은 파일을 양쪽에서 고쳤다면 <tspan font-weight="bold">충돌(conflict)</tspan>이 납니다.</text>
+  <text x="56" y="468" font-size="11.5" fill="#b91c1c">학교에서 <tspan font-weight="bold">Push를 안 하고</tspan> 집에 간 경우도 마찬가지입니다 &#8212; 집에서 Pull을 해도 <tspan font-weight="bold">학교에서 한 작업은 GitHub에 없으니 안 내려옵니다.</tspan></text>
+
+  <text x="450" y="522" text-anchor="middle" font-size="11" fill="#9ca3af">※ Pull은 <tspan font-weight="bold">Unity를 닫은 상태에서</tspan> 하세요. Unity를 켜둔 채 파일이 바뀌면 Unity가 그것을 모른 채 계속 열고 있게 됩니다.</text>
+
+</svg>

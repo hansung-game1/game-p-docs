@@ -1,0 +1,71 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 480" width="900" height="480" font-family="'Malgun Gothic','Apple SD Gothic Neo','Noto Sans KR',sans-serif">
+
+  <rect width="900" height="480" fill="#ffffff"/>
+
+  <text x="450" y="34" text-anchor="middle" font-size="20" font-weight="bold" fill="#111827">가입부터 프로젝트를 받기까지 - 누가 무엇을 하나</text>
+  <text x="450" y="57" text-anchor="middle" font-size="12.5" fill="#6b7280">학생이 하는 일과 교수님이 하는 일이 번갈아 일어납니다. 중간에 <tspan font-weight="bold">기다리는 구간</tspan>이 있습니다.</text>
+
+  <!-- ═══════════ 레인 ═══════════ -->
+  <rect x="40" y="86" width="820" height="122" rx="6" fill="#f8fafc" stroke="#e5e7eb" stroke-width="1.5"/>
+  <text x="52" y="102" font-size="11.5" font-weight="bold" fill="#15803d">학생</text>
+
+  <rect x="40" y="240" width="820" height="122" rx="6" fill="#f8fafc" stroke="#e5e7eb" stroke-width="1.5"/>
+  <text x="52" y="256" font-size="11.5" font-weight="bold" fill="#1f5fa8">교수님</text>
+
+  <!-- ═══════════ ① 가입 ═══════════ -->
+  <rect x="110" y="104" width="150" height="86" rx="5" fill="#f0f7f2" stroke="#86b89a" stroke-width="1.6"/>
+  <text x="124" y="128" font-size="13" font-weight="bold" fill="#15803d">① GitHub 가입</text>
+  <text x="124" y="149" font-size="11" fill="#3f6b52">github.com 에서</text>
+  <text x="124" y="165" font-size="11" fill="#3f6b52">계정 만들기 (무료)</text>
+  <text x="124" y="182" font-size="10.5" fill="#9ca3af">내 계정 이름을 확인</text>
+
+  <!-- ═══════════ ② 신청 ═══════════ -->
+  <rect x="310" y="104" width="150" height="86" rx="5" fill="#f0f7f2" stroke="#86b89a" stroke-width="1.6"/>
+  <text x="324" y="128" font-size="13" font-weight="bold" fill="#15803d">② 접근 신청</text>
+  <text x="324" y="149" font-size="11" fill="#3f6b52">구글 시트에</text>
+  <text x="324" y="165" font-size="11" fill="#3f6b52">계정 이름 적기</text>
+  <text x="324" y="182" font-size="10.5" fill="#9ca3af">대소문자까지 정확히</text>
+
+  <!-- ═══════════ ③ 초대 (교수님) ═══════════ -->
+  <rect x="410" y="258" width="150" height="86" rx="5" fill="#e8f0fa" stroke="#2f74c0" stroke-width="1.6"/>
+  <text x="424" y="282" font-size="13" font-weight="bold" fill="#1f5fa8">③ 초대 보내기</text>
+  <text x="424" y="303" font-size="11" fill="#4b5563">읽기 전용(Read)</text>
+  <text x="424" y="319" font-size="11" fill="#4b5563">권한으로 초대</text>
+  <text x="424" y="336" font-size="10.5" fill="#9ca3af">메일이 발송됨</text>
+
+  <!-- ═══════════ ④ 수락 ═══════════ -->
+  <rect x="510" y="104" width="150" height="86" rx="5" fill="#f0f7f2" stroke="#86b89a" stroke-width="1.6"/>
+  <text x="524" y="128" font-size="13" font-weight="bold" fill="#15803d">④ 초대 수락</text>
+  <text x="524" y="149" font-size="11" fill="#3f6b52">메일의</text>
+  <text x="524" y="165" font-size="11" fill="#3f6b52">Accept invitation</text>
+  <text x="524" y="182" font-size="10.5" fill="#b91c1c">7일 안에 수락할 것</text>
+
+  <!-- ═══════════ ⑤ 프로젝트 받기 ═══════════ -->
+  <rect x="710" y="104" width="150" height="86" rx="5" fill="#f0f7f2" stroke="#86b89a" stroke-width="1.6"/>
+  <text x="724" y="128" font-size="13" font-weight="bold" fill="#15803d">⑤ 프로젝트 받기</text>
+  <text x="724" y="149" font-size="11" fill="#3f6b52">저장소가 열리면</text>
+  <text x="724" y="165" font-size="11" fill="#3f6b52">Use this template</text>
+  <text x="724" y="182" font-size="10.5" fill="#9ca3af">다음 도식으로 이어짐</text>
+
+  <!-- ═══════════ 화살표 ═══════════ -->
+  <line x1="262" y1="147" x2="298" y2="147" stroke="#4b5563" stroke-width="2"/>
+  <polygon points="308,147 296,141 296,153" fill="#4b5563"/>
+
+  <path d="M385 192 V228 H435 V250" fill="none" stroke="#4b5563" stroke-width="2"/>
+  <polygon points="435,260 429,248 441,248" fill="#4b5563"/>
+
+  <path d="M562 300 H600 V202" fill="none" stroke="#4b5563" stroke-width="2"/>
+  <polygon points="600,192 594,204 606,204" fill="#4b5563"/>
+
+  <line x1="662" y1="147" x2="698" y2="147" stroke="#4b5563" stroke-width="2"/>
+  <polygon points="708,147 696,141 696,153" fill="#4b5563"/>
+
+  <text x="638" y="228" text-anchor="middle" font-size="11" fill="#6b7280">기다리는 구간</text>
+  <text x="638" y="244" text-anchor="middle" font-size="10.5" fill="#9ca3af">메일이 올 때까지</text>
+
+  <!-- ═══════════ 경고 ═══════════ -->
+  <rect x="40" y="384" width="820" height="66" rx="5" fill="#fef2f2" stroke="#f0b0b0" stroke-width="1.5"/>
+  <text x="60" y="408" font-size="13" font-weight="bold" fill="#b91c1c">④ 수락 전에 저장소 주소로 들어가면 &#8220;404 - Page not found&#8221; 이 뜹니다</text>
+  <text x="60" y="431" font-size="11.5" fill="#b91c1c">주소가 틀린 것이 아니라 <tspan font-weight="bold">아직 볼 권한이 없다는 뜻</tspan>입니다. 수락한 다음 다시 들어가면 정상적으로 보입니다.</text>
+
+</svg>

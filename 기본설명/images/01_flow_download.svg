@@ -1,0 +1,63 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 560" width="900" height="560" font-family="'Malgun Gothic','Apple SD Gothic Neo','Noto Sans KR',sans-serif">
+
+  <rect width="900" height="560" fill="#ffffff"/>
+
+  <text x="450" y="34" text-anchor="middle" font-size="20" font-weight="bold" fill="#111827">&#8220;받아오기&#8221;는 두 단계입니다</text>
+  <text x="450" y="57" text-anchor="middle" font-size="12.5" fill="#6b7280">① 인터넷 안에서 복사 → ② 그 다음에 내 컴퓨터로 내려받기</text>
+
+  <!-- ═══════════ 인터넷 영역 ═══════════ -->
+  <rect x="40" y="82" width="820" height="152" rx="6" fill="#f8fafc" stroke="#e5e7eb" stroke-width="1.5"/>
+  <text x="58" y="102" font-size="11.5" fill="#9ca3af">인터넷 (GitHub 웹사이트)</text>
+
+  <rect x="80" y="112" width="290" height="98" rx="5" fill="#eef4fb" stroke="#2f74c0" stroke-width="1.6"/>
+  <text x="98" y="138" font-size="13.5" font-weight="bold" fill="#1f5fa8">교수님 저장소 (원본)</text>
+  <text x="98" y="160" font-size="11" fill="#4b5563">hansung-game1 / game-p</text>
+  <text x="98" y="180" font-size="11" fill="#6b7280">비공개 · 나는 읽기만 가능</text>
+  <text x="98" y="199" font-size="10.5" fill="#9ca3af">초대를 수락해야 보입니다</text>
+
+  <rect x="530" y="112" width="290" height="98" rx="5" fill="#f0f7f2" stroke="#86b89a" stroke-width="1.6"/>
+  <text x="548" y="138" font-size="13.5" font-weight="bold" fill="#15803d">내 저장소</text>
+  <text x="548" y="160" font-size="11" fill="#3f6b52">내계정 / 123456_kimhansung</text>
+  <text x="548" y="180" font-size="11" fill="#6b7280">공개 · 주인은 나</text>
+  <text x="548" y="199" font-size="10.5" fill="#9ca3af">아직 <tspan font-weight="bold">인터넷에만</tspan> 있습니다</text>
+
+  <line x1="374" y1="161" x2="506" y2="161" stroke="#c9a227" stroke-width="2.6"/>
+  <polygon points="520,161 504,153 504,169" fill="#c9a227"/>
+  <text x="444" y="143" text-anchor="middle" font-size="11.5" font-weight="bold" fill="#8a6d1f">① Use this template</text>
+  <text x="444" y="186" text-anchor="middle" font-size="10.5" fill="#8a6d1f">인터넷 안에서 복사</text>
+
+  <!-- ═══════════ ② 내려받기 화살표 ═══════════ -->
+  <line x1="675" y1="212" x2="675" y2="316" stroke="#15803d" stroke-width="2.6"/>
+  <polygon points="675,328 668,312 682,312" fill="#15803d"/>
+  <text x="695" y="252" font-size="12" font-weight="bold" fill="#15803d">② Clone</text>
+  <text x="695" y="270" font-size="11" fill="#3f6b52">GitHub Desktop 으로</text>
+  <text x="695" y="287" font-size="11" fill="#3f6b52">내 컴퓨터에 내려받기</text>
+  <text x="695" y="305" font-size="10.5" fill="#9ca3af">여기서 파일이 실제로 옵니다</text>
+
+  <!-- ═══════════ 내 컴퓨터 영역 ═══════════ -->
+  <rect x="40" y="330" width="820" height="210" rx="6" fill="#f8fafc" stroke="#e5e7eb" stroke-width="1.5"/>
+  <text x="58" y="350" font-size="11.5" fill="#9ca3af">내 컴퓨터</text>
+
+  <rect x="530" y="358" width="290" height="82" rx="5" fill="#fff8e6" stroke="#c9a227" stroke-width="1.8"/>
+  <text x="548" y="384" font-size="13.5" font-weight="bold" fill="#8a6d1f">내 프로젝트 폴더</text>
+  <text x="548" y="405" font-size="11" fill="#6b7280">D:\GameProject\123456_kimhansung</text>
+  <text x="548" y="424" font-size="10.5" fill="#9ca3af">Assets / Packages / ProjectSettings …</text>
+
+  <line x1="675" y1="442" x2="675" y2="466" stroke="#4b5563" stroke-width="2"/>
+  <polygon points="675,478 669,464 681,464" fill="#4b5563"/>
+  <text x="695" y="464" font-size="11" fill="#4b5563">③ Unity Hub → <tspan font-weight="bold">추가</tspan></text>
+
+  <rect x="530" y="478" width="290" height="46" rx="5" fill="#f6f7f9" stroke="#9ca3af" stroke-width="1.5"/>
+  <text x="548" y="507" font-size="13" font-weight="bold" fill="#111827">Unity에서 열림 → 작업 시작</text>
+
+  <!-- ═══════════ 핵심 설명 ═══════════ -->
+  <rect x="80" y="358" width="410" height="166" rx="5" fill="#fef2f2" stroke="#f0b0b0" stroke-width="1.5"/>
+  <text x="100" y="384" font-size="13" font-weight="bold" fill="#b91c1c">가장 헷갈리는 지점</text>
+  <text x="100" y="410" font-size="11.5" fill="#b91c1c">&#8220;받아왔다&#8221;는 말이 <tspan font-weight="bold">두 번</tspan> 나옵니다.</text>
+  <text x="100" y="434" font-size="11.5" fill="#4b5563"><tspan font-weight="bold">①까지 끝나도 내 컴퓨터에는 아직</tspan></text>
+  <text x="100" y="452" font-size="11.5" fill="#4b5563"><tspan font-weight="bold">아무 파일도 없습니다.</tspan> 인터넷에 내 저장소가</text>
+  <text x="100" y="470" font-size="11.5" fill="#4b5563">하나 생겼을 뿐입니다.</text>
+  <text x="100" y="496" font-size="11.5" fill="#4b5563">실제 파일이 내 컴퓨터로 오는 것은 <tspan font-weight="bold" fill="#15803d">② Clone</tspan> 입니다.</text>
+  <text x="100" y="515" font-size="10.5" fill="#9ca3af">그래서 ①만 하고 Unity에서 열려고 하면 열 폴더가 없습니다.</text>
+
+</svg>

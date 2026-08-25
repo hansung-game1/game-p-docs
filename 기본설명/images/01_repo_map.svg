@@ -1,0 +1,96 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 770" width="900" height="770" font-family="'Malgun Gothic','Apple SD Gothic Neo','Noto Sans KR',sans-serif">
+
+  <rect width="900" height="770" fill="#ffffff"/>
+
+  <text x="450" y="34" text-anchor="middle" font-size="20" font-weight="bold" fill="#111827">저장소는 어떻게 연결되어 있나</text>
+  <text x="450" y="57" text-anchor="middle" font-size="12.5" fill="#6b7280">선의 종류가 다릅니다 &#8212; 계속 이어진 것, 한 번만 흐르고 끊긴 것, 읽기만 되는 것</text>
+
+  <!-- ═══════════ 인터넷 영역 ═══════════ -->
+  <rect x="40" y="78" width="820" height="170" rx="6" fill="#f8fafc" stroke="#e5e7eb" stroke-width="1.5"/>
+  <text x="58" y="99" font-size="11.5" fill="#9ca3af">인터넷 (GitHub 웹사이트)</text>
+
+  <rect x="64" y="110" width="326" height="124" rx="5" fill="#eef4fb" stroke="#2f74c0" stroke-width="1.6"/>
+  <text x="84" y="138" font-size="14" font-weight="bold" fill="#1f5fa8">교수님 저장소 (원본)</text>
+  <text x="84" y="160" font-size="11.5" fill="#4b5563">hansung-game1 / game-p</text>
+  <text x="84" y="180" font-size="11.5" fill="#6b7280">비공개 · 학생은 <tspan font-weight="bold">읽기 전용</tspan></text>
+  <text x="84" y="200" font-size="11.5" fill="#6b7280">수업 문서(ClassDocs)가 있는 곳</text>
+  <text x="84" y="220" font-size="11" fill="#9ca3af">문서는 여기가 항상 최신입니다</text>
+
+  <rect x="510" y="110" width="326" height="124" rx="5" fill="#f0f7f2" stroke="#86b89a" stroke-width="1.6"/>
+  <text x="530" y="138" font-size="14" font-weight="bold" fill="#15803d">내 저장소</text>
+  <text x="530" y="160" font-size="11.5" fill="#3f6b52">내계정 / 123456_kimhansung</text>
+  <text x="530" y="180" font-size="11.5" fill="#6b7280">공개 · <tspan font-weight="bold">주인은 나</tspan></text>
+  <text x="530" y="200" font-size="11.5" fill="#6b7280">교수님도 보기·받기만 가능 (올리기 ✕)</text>
+  <text x="530" y="220" font-size="11" fill="#9ca3af">과제 제출은 이 주소로</text>
+
+  <!-- 템플릿 복사 : 한 번만 -->
+  <line x1="392" y1="150" x2="486" y2="150" stroke="#c9a227" stroke-width="2.4" stroke-dasharray="7 5"/>
+  <polygon points="500,150 486,143 486,157" fill="#c9a227"/>
+  <text x="446" y="134" text-anchor="middle" font-size="11" font-weight="bold" fill="#8a6d1f">Use this template</text>
+  <text x="446" y="176" text-anchor="middle" font-size="10.5" fill="#8a6d1f">딱 한 번</text>
+
+  <!-- ═══════════ 끊김 경고 ═══════════ -->
+  <rect x="310" y="270" width="290" height="54" rx="5" fill="#fef2f2" stroke="#f0b0b0" stroke-width="1.4"/>
+  <text x="455" y="292" text-anchor="middle" font-size="11.5" font-weight="bold" fill="#b91c1c">복사된 뒤로는 연결이 없습니다</text>
+  <text x="455" y="311" text-anchor="middle" font-size="11" fill="#b91c1c">원본이 바뀌어도 내 저장소는 그대로입니다</text>
+
+  <!-- ═══════════ 세로 연결 : 양방향 ═══════════ -->
+  <line x1="227" y1="240" x2="227" y2="412" stroke="#4b5563" stroke-width="2"/>
+  <polygon points="227,234 221,246 233,246" fill="#4b5563"/>
+  <polygon points="227,418 221,406 233,406" fill="#4b5563"/>
+  <text x="211" y="322" text-anchor="end" font-size="11" font-weight="bold" fill="#4b5563">Push / Pull</text>
+  <text x="211" y="339" text-anchor="end" font-size="10.5" fill="#9ca3af">양방향, 계속</text>
+
+  <line x1="673" y1="240" x2="673" y2="412" stroke="#4b5563" stroke-width="2"/>
+  <polygon points="673,234 667,246 679,246" fill="#4b5563"/>
+  <polygon points="673,418 667,406 679,406" fill="#4b5563"/>
+  <text x="689" y="322" font-size="11" font-weight="bold" fill="#4b5563">Clone / Push / Pull</text>
+  <text x="689" y="339" font-size="10.5" fill="#9ca3af">양방향, 계속</text>
+
+  <!-- ═══════════ 문서 읽기 : 읽기 전용 ═══════════ -->
+  <path d="M560 412 L560 362 L270 362 L270 244" fill="none" stroke="#2f74c0" stroke-width="1.8" stroke-dasharray="2 4"/>
+  <polygon points="270,236 265,248 275,248" fill="#2f74c0"/>
+  <text x="418" y="354" text-anchor="middle" font-size="11" font-weight="bold" fill="#2f74c0">문서 읽기 (읽기 전용)</text>
+
+  <!-- ═══════════ 컴퓨터 영역 ═══════════ -->
+  <rect x="40" y="386" width="820" height="150" rx="6" fill="#f8fafc" stroke="#e5e7eb" stroke-width="1.5"/>
+  <text x="58" y="407" font-size="11.5" fill="#9ca3af">각자의 컴퓨터</text>
+
+  <rect x="64" y="418" width="326" height="100" rx="5" fill="#f6f7f9" stroke="#9ca3af" stroke-width="1.5"/>
+  <text x="84" y="446" font-size="13.5" font-weight="bold" fill="#111827">교수님 컴퓨터</text>
+  <text x="84" y="468" font-size="11.5" fill="#4b5563">E:\GitHub\game-p</text>
+  <text x="84" y="492" font-size="11" fill="#9ca3af">수업자료와 원본 프로젝트를 여기서 고칩니다</text>
+
+  <rect x="510" y="418" width="326" height="100" rx="5" fill="#f6f7f9" stroke="#9ca3af" stroke-width="1.5"/>
+  <text x="530" y="446" font-size="13.5" font-weight="bold" fill="#111827">내 컴퓨터</text>
+  <text x="530" y="468" font-size="11.5" fill="#4b5563">D:\GameProject\123456_kimhansung</text>
+  <text x="530" y="492" font-size="11" fill="#9ca3af">Unity로 여는 폴더 = 내가 작업하는 곳</text>
+
+  <!-- ═══════════ 범례 ═══════════ -->
+  <rect x="40" y="556" width="820" height="132" rx="5" fill="#ffffff" stroke="#e5e7eb" stroke-width="1.5"/>
+  <text x="60" y="580" font-size="13" font-weight="bold" fill="#111827">선의 종류</text>
+
+  <line x1="62" y1="604" x2="122" y2="604" stroke="#4b5563" stroke-width="2"/>
+  <polygon points="62,604 74,599 74,609" fill="#4b5563"/>
+  <polygon points="122,604 110,599 110,609" fill="#4b5563"/>
+  <text x="138" y="609" font-size="11.5" fill="#4b5563"><tspan font-weight="bold">실선 양방향</tspan> &#8212; 계속 이어져 있음. 내 컴퓨터 ↔ 내 GitHub</text>
+
+  <line x1="62" y1="630" x2="112" y2="630" stroke="#c9a227" stroke-width="2.4" stroke-dasharray="7 5"/>
+  <polygon points="122,630 110,624 110,636" fill="#c9a227"/>
+  <text x="138" y="635" font-size="11.5" fill="#4b5563"><tspan font-weight="bold" fill="#8a6d1f">점선 한 방향</tspan> &#8212; 한 번만 흐르고 끝. 이후 아무리 기다려도 갱신되지 않음</text>
+
+  <line x1="62" y1="656" x2="112" y2="656" stroke="#2f74c0" stroke-width="1.8" stroke-dasharray="2 4"/>
+  <polygon points="122,656 110,650 110,662" fill="#2f74c0"/>
+  <text x="138" y="661" font-size="11.5" fill="#4b5563"><tspan font-weight="bold" fill="#2f74c0">점점선 한 방향</tspan> &#8212; 읽기만 됨. 학생 → 교수님 저장소</text>
+
+  <line x1="70" y1="676" x2="114" y2="676" stroke="#d1d5db" stroke-width="2"/>
+  <line x1="84" y1="670" x2="100" y2="686" stroke="#dc2626" stroke-width="2"/>
+  <line x1="100" y1="670" x2="84" y2="686" stroke="#dc2626" stroke-width="2"/>
+  <text x="138" y="682" font-size="11.5" fill="#4b5563"><tspan font-weight="bold" fill="#b91c1c">막힘</tspan> &#8212; 교수님은 학생 저장소에 올릴 수 없음 (주인이 학생이므로)</text>
+
+  <!-- ═══════════ 결론 ═══════════ -->
+  <rect x="40" y="702" width="820" height="52" rx="5" fill="#f0f7f2" stroke="#86b89a" stroke-width="1.5"/>
+  <text x="60" y="724" font-size="13" font-weight="bold" fill="#15803d">작업은 내 저장소에서, 문서는 교수님 저장소에서</text>
+  <text x="60" y="744" font-size="11.5" fill="#3f6b52">내 저장소 안에 들어 있는 ClassDocs는 <tspan font-weight="bold">받아온 날짜에 멈춰 있는 사본</tspan>입니다. 수업이 진행되면 내용이 달라집니다.</text>
+
+</svg>
