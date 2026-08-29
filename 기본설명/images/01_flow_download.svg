@@ -17,7 +17,7 @@
 
   <rect x="530" y="112" width="290" height="98" rx="5" fill="#f0f7f2" stroke="#86b89a" stroke-width="1.6"/>
   <text x="548" y="138" font-size="13.5" font-weight="bold" fill="#15803d">내 저장소</text>
-  <text x="548" y="160" font-size="11" fill="#3f6b52">내계정 / 123456_kimhansung</text>
+  <text x="548" y="160" font-size="11" fill="#3f6b52">내계정 / 123456_hongildong</text>
   <text x="548" y="180" font-size="11" fill="#6b7280">공개 · 주인은 나</text>
   <text x="548" y="199" font-size="10.5" fill="#9ca3af">아직 <tspan font-weight="bold">인터넷에만</tspan> 있습니다</text>
 
@@ -40,7 +40,7 @@
 
   <rect x="530" y="358" width="290" height="82" rx="5" fill="#fff8e6" stroke="#c9a227" stroke-width="1.8"/>
   <text x="548" y="384" font-size="13.5" font-weight="bold" fill="#8a6d1f">내 프로젝트 폴더</text>
-  <text x="548" y="405" font-size="11" fill="#6b7280">D:\GameProject\123456_kimhansung</text>
+  <text x="548" y="405" font-size="11" fill="#6b7280">D:\GameProject\123456_hongildong</text>
   <text x="548" y="424" font-size="10.5" fill="#9ca3af">Assets / Packages / ProjectSettings …</text>
 
   <line x1="675" y1="442" x2="675" y2="466" stroke="#4b5563" stroke-width="2"/>

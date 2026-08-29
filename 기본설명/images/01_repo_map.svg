@@ -13,12 +13,12 @@
   <text x="84" y="138" font-size="14" font-weight="bold" fill="#1f5fa8">교수님 저장소 (원본)</text>
   <text x="84" y="160" font-size="11.5" fill="#4b5563">hansung-game1 / game-p</text>
   <text x="84" y="180" font-size="11.5" fill="#6b7280">비공개 · 학생은 <tspan font-weight="bold">읽기 전용</tspan></text>
-  <text x="84" y="200" font-size="11.5" fill="#6b7280">수업 문서(ClassDocs)가 있는 곳</text>
-  <text x="84" y="220" font-size="11" fill="#9ca3af">문서는 여기가 항상 최신입니다</text>
+  <text x="84" y="200" font-size="11.5" fill="#6b7280">원본 프로젝트 (코드 · 리소스)</text>
+  <text x="84" y="220" font-size="11" fill="#9ca3af">수업 문서는 여기에 없습니다</text>
 
   <rect x="510" y="110" width="326" height="124" rx="5" fill="#f0f7f2" stroke="#86b89a" stroke-width="1.6"/>
   <text x="530" y="138" font-size="14" font-weight="bold" fill="#15803d">내 저장소</text>
-  <text x="530" y="160" font-size="11.5" fill="#3f6b52">내계정 / 123456_kimhansung</text>
+  <text x="530" y="160" font-size="11.5" fill="#3f6b52">내계정 / 123456_hongildong</text>
   <text x="530" y="180" font-size="11.5" fill="#6b7280">공개 · <tspan font-weight="bold">주인은 나</tspan></text>
   <text x="530" y="200" font-size="11.5" fill="#6b7280">교수님도 보기·받기만 가능 (올리기 ✕)</text>
   <text x="530" y="220" font-size="11" fill="#9ca3af">과제 제출은 이 주소로</text>
@@ -50,7 +50,7 @@
   <!-- ═══════════ 문서 읽기 : 읽기 전용 ═══════════ -->
   <path d="M560 412 L560 362 L270 362 L270 244" fill="none" stroke="#2f74c0" stroke-width="1.8" stroke-dasharray="2 4"/>
   <polygon points="270,236 265,248 275,248" fill="#2f74c0"/>
-  <text x="418" y="354" text-anchor="middle" font-size="11" font-weight="bold" fill="#2f74c0">문서 읽기 (읽기 전용)</text>
+  <text x="418" y="354" text-anchor="middle" font-size="11" font-weight="bold" fill="#2f74c0">읽기 전용 (올릴 수 없음)</text>
 
   <!-- ═══════════ 컴퓨터 영역 ═══════════ -->
   <rect x="40" y="386" width="820" height="150" rx="6" fill="#f8fafc" stroke="#e5e7eb" stroke-width="1.5"/>
@@ -63,7 +63,7 @@
 
   <rect x="510" y="418" width="326" height="100" rx="5" fill="#f6f7f9" stroke="#9ca3af" stroke-width="1.5"/>
   <text x="530" y="446" font-size="13.5" font-weight="bold" fill="#111827">내 컴퓨터</text>
-  <text x="530" y="468" font-size="11.5" fill="#4b5563">D:\GameProject\123456_kimhansung</text>
+  <text x="530" y="468" font-size="11.5" fill="#4b5563">D:\GameProject\123456_hongildong</text>
   <text x="530" y="492" font-size="11" fill="#9ca3af">Unity로 여는 폴더 = 내가 작업하는 곳</text>
 
   <!-- ═══════════ 범례 ═══════════ -->
@@ -90,7 +90,7 @@
 
   <!-- ═══════════ 결론 ═══════════ -->
   <rect x="40" y="702" width="820" height="52" rx="5" fill="#f0f7f2" stroke="#86b89a" stroke-width="1.5"/>
-  <text x="60" y="724" font-size="13" font-weight="bold" fill="#15803d">작업은 내 저장소에서, 문서는 교수님 저장소에서</text>
-  <text x="60" y="744" font-size="11.5" fill="#3f6b52">내 저장소 안에 들어 있는 ClassDocs는 <tspan font-weight="bold">받아온 날짜에 멈춰 있는 사본</tspan>입니다. 수업이 진행되면 내용이 달라집니다.</text>
+  <text x="60" y="724" font-size="13" font-weight="bold" fill="#15803d">작업은 내 저장소에서, 문서는 문서 저장소에서</text>
+  <text x="60" y="744" font-size="11.5" fill="#3f6b52">수업 문서는 위 두 저장소 어디에도 없습니다. <tspan font-weight="bold">hansung-game1 / game-p-docs</tspan> 한 곳에만 있고, 거기가 항상 최신입니다.</text>
 
 </svg>

@@ -11,13 +11,16 @@
  ├─ Assets            ← Unity 프로젝트 실제 내용물 (아래에서 자세히)
  ├─ Packages          ← Unity 패키지 설정 (건드리지 않음)
  ├─ ProjectSettings   ← Unity 프로젝트 설정 (건드리지 않음)
- ├─ ClassDocs         ← 지금 읽고 있는 수업 문서들
  └─ README.md
 ```
+
+> **수업 문서는 이 저장소에 들어 있지 않습니다.** 문서는 [공개 문서 저장소](https://github.com/hansung-game1/game-p-docs)에만 있고 거기가 항상 최신입니다. 프로젝트 안에서 문서를 찾지 마세요.
 
 실제 탐색기로 열어보면 위 목록보다 훨씬 많은 것이 보입니다.
 
 ![클론한 저장소 폴더를 탐색기로 연 모습](images/02_folder_repo_root.png)
+
+> 위 캡처는 문서를 별도 저장소로 옮기기 전에 찍은 것이라 `ClassDocs` 폴더가 보입니다. **지금은 없는 폴더입니다.**
 
 **나머지는 전부 Unity와 Git이 자동으로 만드는 것들이라 신경 쓰지 않아도 됩니다.**
 

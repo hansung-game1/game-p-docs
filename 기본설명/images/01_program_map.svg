@@ -31,7 +31,7 @@
   <rect x="500" y="108" width="340" height="96" rx="5" fill="#f0f7f2" stroke="#86b89a" stroke-width="1.6"/>
   <text x="520" y="136" font-size="14.5" font-weight="bold" fill="#15803d">GitHub</text>
   <text x="520" y="158" font-size="12" fill="#3f6b52">인터넷에 있는 <tspan font-weight="bold">내 저장 공간</tspan> (웹사이트)</text>
-  <text x="520" y="180" font-size="11.5" fill="#6b7280">· 내 저장소 = 123456_kimhansung</text>
+  <text x="520" y="180" font-size="11.5" fill="#6b7280">· 내 저장소 = 123456_hongildong</text>
   <text x="520" y="196" font-size="11.5" fill="#9ca3af">컴퓨터가 고장 나도 여기 있는 것은 남습니다</text>
 
   <line x1="670" y1="204" x2="670" y2="250" stroke="#4b5563" stroke-width="2"/>
@@ -58,8 +58,8 @@
   <!-- ═══════════ 공통 대상 : 프로젝트 폴더 ═══════════ -->
   <rect x="250" y="432" width="400" height="92" rx="5" fill="#fff8e6" stroke="#c9a227" stroke-width="1.8"/>
   <text x="450" y="461" text-anchor="middle" font-size="14.5" font-weight="bold" fill="#8a6d1f">내 프로젝트 폴더 (하나뿐)</text>
-  <text x="450" y="484" text-anchor="middle" font-size="11.5" fill="#6b7280">예: D:\GameProject\123456_kimhansung</text>
-  <text x="450" y="506" text-anchor="middle" font-size="11" fill="#9ca3af">Assets / Packages / ProjectSettings / ClassDocs …</text>
+  <text x="450" y="484" text-anchor="middle" font-size="11.5" fill="#6b7280">예: D:\GameProject\123456_hongildong</text>
+  <text x="450" y="506" text-anchor="middle" font-size="11" fill="#9ca3af">Assets / Packages / ProjectSettings / README.md</text>
 
   <!-- ═══════════ 핵심 ═══════════ -->
   <rect x="60" y="540" width="780" height="54" rx="5" fill="#f0f7f2" stroke="#86b89a" stroke-width="1.5"/>
