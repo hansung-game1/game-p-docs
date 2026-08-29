@@ -107,8 +107,8 @@ BackgroundMusic              ← 스테이지 BGM
 
 | 회색인 항목 | 이유 |
 |---|---|
-| `Add All HUD Systems To Background Test Scene` | **`BackgroundTest` 전용** |
-| `Add Stage Start Clear To Background Test Scene` | 〃 |
+| `Add All HUD & Systems To Background Test Scene` | **`BackgroundTest` 전용** |
+| `Add Stage Start & Clear To Background Test Scene` | 〃 |
 | `Toggle Stage Clear Panel Preview` | **`ActionTest`엔 클리어 화면이 없음** |
 
 ![BackgroundTest에서 연 같은 메뉴 - Toggle Stage Clear Panel Preview가 살아 있다](images/W06_insp_stageclear_toggle.png)
