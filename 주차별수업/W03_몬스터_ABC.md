@@ -352,6 +352,35 @@ Assets/_Project/00_Scenes/Stages/MonsterC_ActionTest.unity
 | 몬스터가 바닥에 파묻힘 / 떠 있음 | 500x500 캔버스에서 "아래쪽 가운데" 기준이 안 맞음 |
 
 ---
+### ★ 마지막 - 주인공을 배경 테스트 씬에도 반영하기
+
+**몬스터까지 다 만든 지금이 그 시점입니다.**
+
+**몬스터는 프리팹이 있어서** `Apply ○ Settings To Prefab` 한 번이면 모든 씬에 퍼집니다. **그런데 주인공은 프리팹이 없습니다** - 씬마다 따로 존재해서, `ActionTest`에서 고친 값이 다른 씬에 자동으로 가지 않습니다.
+
+> **2주차에 주인공을 만들 때는 `ActionTest`만 봤습니다.** 그래서 지금 `BackgroundTest`(스테이지1)의 주인공은 **아직 2주차 이전 상태**입니다. 이번 주에 한 번에 맞춥니다.
+
+**순서는 두 단계입니다.**
+
+1. `ActionTest` 씬을 열고 `Hierarchy`에서 **`Player_ActionTest`** 선택 → `Inspector` 맨 아래 **`Apply All Player Action Settings`** 클릭
+2. 상단 메뉴 → **`Tools > Class Template > Sync Player & HUD From ActionTest`** 실행
+3. **`Ctrl+S`** 로 저장
+
+**이것으로 `BackgroundTest` 등 모든 스테이지 씬의 주인공에 한 번에 복사됩니다.** 안전하게 몇 번이든 다시 실행해도 됩니다.
+
+> ⚠️ **두 개는 다른 일을 합니다. 1번만 하고 끝내면 아무것도 안 옮겨집니다.**
+>
+> | 무엇 | 하는 일 |
+> |---|---|
+> | **`Apply All Player Action Settings`** | **지금 씬 저장**입니다 (`Ctrl+S`와 같음) |
+> | **`Sync Player & HUD From ActionTest`** | **다른 씬으로 옮기는 것** |
+>
+> **몬스터의 `Apply ○ Settings To Prefab`과 헷갈리기 쉽습니다.** 몬스터 쪽은 버튼 하나로 전 씬에 퍼지지만, **주인공은 버튼 다음에 메뉴를 한 번 더 실행해야 합니다.**
+
+**반영한 뒤 `BackgroundTest` 씬을 열어 주인공이 2주차에 만든 모습으로 나오는지 확인하세요.**
+
+---
+
 
 ## 6. GitHub 백업
 
