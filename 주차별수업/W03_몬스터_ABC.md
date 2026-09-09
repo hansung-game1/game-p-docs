@@ -476,4 +476,4 @@ Assets/_Project/00_Scenes/Stages/MonsterC_ActionTest.unity
 - `Assets/_Project/04_Art/StudentReplace/Monsters/MonsterA(B,C)/readme.txt` - **작업 전에 반드시 열어볼 것**
 - [04_Unity_적용_가이드](../기본설명/04_Unity_적용_가이드.md) - "프리팹으로 만들어진 것 vs 씬에만 있는 것", "몬스터: Apply 버튼으로 확정 짓기"
 - [W03 보조자료 - 몬스터 Inspector 항목 설명](W03_몬스터_ABC_인스팩터.md) - **Inspector 항목이 뭐가 뭔지 모르겠을 때**
-- [W02_플레이어_캐릭터](W02_플레이어_캐릭터.md) - 캔버스 기준 위치, 판정 프레임 개념 (같은 내용)
+- [W02_플레이어_캐릭터](<W02_플레이어_캐릭터1(기본).md>) - 캔버스 기준 위치, 판정 프레임 개념 (같은 내용)
