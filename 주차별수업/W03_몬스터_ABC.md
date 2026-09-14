@@ -161,15 +161,20 @@ monsterc_(동작이름)_(두 자리 번호).png
 
 **1) 그림을 폴더에 넣습니다.**
 
-파일명/개수를 그대로 두고 덮어쓴 거라면 자동 반영됩니다. **새 폴더 구성이거나 프레임 수가 달라졌다면** 다음 도구를 실행하세요:
+파일명을 그대로 두고 덮어쓴 거라면 **모든 씬에 자동 반영**됩니다. 따로 할 일이 없습니다.
 
-```
-Tools > Class Template > Create Or Update MonsterA Prefab
-Tools > Class Template > Create Or Update MonsterB Prefab
-Tools > Class Template > Create Or Update MonsterC Prefab
-```
+**프레임 수가 달라졌다면 2주차 주인공과 같은 방법으로** 맞춥니다.
 
-이 도구는 폴더를 다시 스캔해서 프리팹을 만들거나 갱신하고, `ActionTest` 씬에 몬스터를 배치까지 해줍니다. **안전하게 반복 실행 가능**합니다.
+| | |
+|---|---|
+| **줄였을 때** | 남은 파일을 지우고 → `Inspector` 배열 장수를 줄입니다 |
+| **늘렸을 때** | 배열 장수를 늘리고 → **새 칸에 새 그림을 끌어다 넣습니다** |
+
+자세한 순서는 [2주차 실습 2절](<W02_플레이어_캐릭터3(실습).md>) · [04. Unity 적용 가이드](../기본설명/04_Unity_적용_가이드.md)의 「프레임 개수를 바꾸는 경우」와 같습니다. **몬스터는 여기에 아래 3) `Apply` 가 붙습니다.**
+
+> ⚠️ **`Tools > Class Template > Create Or Update Monster○ Prefab` 메뉴는 쓰지 마세요.**
+>
+> 이름과 달리 **폴더를 다시 읽어주지 않습니다**(몬스터 A·C). 게다가 **몬스터 B는 누르는 순간 `Inspector` 에서 조정한 값이 전부 처음 상태로 돌아갑니다** - 판정 번호, 이펙트 위치, 배열까지. **과제 작업에는 필요 없는 도구**입니다.
 
 **2) `ActionTest` 씬에서 프레임 수 / 판정 프레임을 확인·수정합니다.**
 
@@ -185,9 +190,9 @@ Tools > Class Template > Create Or Update MonsterC Prefab
 
 ![판정 프레임 - 프레임 수를 줄이면 판정 번호도 같이 고쳐야 함](images/W02_damage_frame.svg)
 
-> 몬스터C의 `Attack1 Projectile Frame`이 실제 프레임 수보다 크면 **투사체가 영원히 안 나갑니다.** 에러도 안 뜹니다. 이 프로젝트에서 가장 자주 걸리는 함정입니다.
+> 몬스터C의 `Attack1 Projectile Frame`이 실제 프레임 수보다 크면 **투사체가 영원히 안 나갑니다.** 이 프로젝트에서 가장 자주 걸리는 함정입니다.
 >
-> (프레임 배열 크기와 판정 프레임 번호가 안 맞으면 Console에 **경고**를 띄워주는 안전장치가 들어 있습니다. Console 창을 켜두고 작업하세요.)
+> ⚠️ **에러도 경고도 뜨지 않습니다.** Console을 봐도 아무것도 없고, 게임은 멀쩡히 돌아가며 **그 동작(타격·이펙트·투사체)만 조용히 안 일어납니다.** **프레임 수를 바꿨다면 판정 번호는 내가 직접 확인해야 합니다** - 아무도 알려주지 않습니다.
 
 **3) 원본(프리팹)에 반영합니다. ★ 이걸 빼먹으면 다른 씬에 반영이 안 됩니다.**
 
@@ -343,7 +348,7 @@ Assets/_Project/00_Scenes/Stages/MonsterC_ActionTest.unity
 
 | 증상 | 원인 |
 |---|---|
-| 몬스터가 임시 그림 그대로 | 파일명 오타, 또는 `Create Or Update Monster○ Prefab` 미실행 |
+| 몬스터가 임시 그림 그대로 | **파일명이 원래 이름과 다름** (접두사 `monstera_`, 번호 `_01` 자리수). 이름이 다르면 새 파일로 들어가서 배열에 연결되지 않습니다 - 이름을 맞추거나 배열 칸에 끌어다 넣으세요 |
 | 때려도 안 맞음 / 몬스터가 공격을 안 함 | **판정 프레임 숫자**가 프레임 수와 안 맞음 |
 | 몬스터C 투사체가 안 나감 | `Attack1 Projectile Frame` 확인 |
 | 몬스터B 이펙트가 안 보임 | 이펙트 폴더 파일명 확인 (`monsterb_attack1_effect_01.png`) |
@@ -463,7 +468,7 @@ Assets/_Project/00_Scenes/Stages/MonsterC_ActionTest.unity
 - [ ] A 5개 / B 8개 / C 7개 + 투사체 폴더가 전부 채워졌는가
 - [ ] 파일명 접두사가 `monstera_` / `monsterb_` / `monsterc_`로 정확한가
 - [ ] 몸 그림은 500x500, 이펙트/투사체는 **정가운데 기준**으로 그렸는가
-- [ ] `Create Or Update Monster○ Prefab` 실행했는가
+- [ ] 프레임 수를 바꾼 동작은 **배열 장수와 판정 번호**를 맞췄는가
 - [ ] **`Apply Monster ○ Settings To Prefab`을 A·B·C 전부 눌렀는가** ← 제일 많이 빠뜨림
 - [ ] 3종 다 공격이 플레이어에게 맞고, 플레이어 공격도 3종 다 맞는가
 - [ ] Console에 경고/에러가 없는가
