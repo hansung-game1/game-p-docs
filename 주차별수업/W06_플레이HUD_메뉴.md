@@ -15,9 +15,7 @@
 | `UI/DeathScreen` | 사망 화면 일러스트 + 버튼 3개 | HP가 0이 됐을 때 |
 | `UI/StageStart` | "GAME START" 배너 | 스테이지 시작 직후 잠깐 |
 | `UI/StageClear` | "LEVEL CLEAR" 배너 | 클리어했을 때 |
-| `Environment/LevelClearObject` | **클리어를 발동시키는 오브젝트** | 스테이지 안에 실제로 놓임 |
-
-> **`LevelClearObject`만 성격이 다릅니다.** UI(화면에 겹쳐 뜨는 것)가 아니라, **스테이지 안에 실제로 배치되는 물건**입니다. 플레이어가 여기를 **공격해서 맞히면** 스테이지 클리어가 됩니다(닿는 것만으로는 안 됩니다). 깃발, 문, 보물상자, 포탈 등 원하는 형태로 그리세요.
+> **클리어 오브젝트(`Environment/LevelClearObject`)는 5주차로 옮겼습니다.** UI가 아니라 **스테이지 안에 실제로 놓이는 물건**이라 배경과 함께 만듭니다 → [5주차 본문 「클리어 오브젝트」](<W05_배경_스테이지1(기본).md>). 이번 주에 만드는 것은 그 물건을 때렸을 때 뜨는 **「LEVEL CLEAR」 배너**(`UI/StageClear`)입니다.
 
 ### 디자인 방향 - 이번 주의 핵심
 
@@ -108,14 +106,11 @@ button_quit_normal.png     / _hover.png / _click.png    종료
 
 글자를 그림 안에 직접 그려 넣습니다 (예: "GAME START", "STAGE 1"). 영문/한글/게임 고유 문구 자유입니다.
 
-### `Environment/LevelClearObject` - 클리어 오브젝트
+### `Environment/LevelClearObject` - 클리어 오브젝트 → 5주차로 옮김
 
-| 파일 | 크기 | 설명 |
-|---|---|---|
-| `level_clear_object.png` | **500 x 500px 권장** | **공격해서 맞히면** 클리어되는 물건 |
+**클리어 오브젝트 그림은 5주차에 배경과 함께 만듭니다.** 규격과 넣는 법은 [5주차 본문 「클리어 오브젝트」](<W05_배경_스테이지1(기본).md>) 에 있습니다.
 
-> ★ **기준 위치가 캐릭터와 다릅니다.** 캐릭터는 "아래쪽 가운데" 기준이지만, 이건 **"정가운데" 기준**입니다. 헷갈리기 쉬우니 주의하세요.
-> 캐릭터와 비슷한 크기감으로 그리면 자연스럽습니다.
+> 프로젝트 폴더의 `Environment\readme.txt` 에 적힌 주소를 따라 여기로 왔다면, 위 링크로 가세요.
 
 ### 러프 단계 작업 지침
 
@@ -150,9 +145,11 @@ Tools > Class Template > Add All HUD & Systems To Background Test Scene
 
 **안전하게 반복 실행 가능**합니다. 그림을 넣기 전에 실행해도 되고(자리만 잡힘), 넣은 뒤 다시 실행해도 됩니다.
 
-**4) 클리어 오브젝트를 스테이지에 배치합니다.**
+**4) 클리어 오브젝트 - 5주차에 놓은 그대로입니다.**
 
-`Hierarchy`에서 `LevelClearObject`를 찾아 선택하고, **Scene 뷰에서 드래그**해서 스테이지 끝쪽 원하는 위치에 놓습니다. 여기를 플레이어가 **공격해서 맞히면** 클리어입니다 - 지나가는 것만으로는 안 됩니다.
+`LevelClearObject` 는 **5주차에 그림을 바꾸고 스테이지 끝에 놓았습니다.** 위 도구는 **이미 있는 것은 건드리지 않으므로** 그 자리에 그대로 있습니다. Play 해서 끝까지 가 **때려보고 클리어되는지만** 확인하세요.
+
+> 5주차에 못 했다면 → [5주차 실습 5-3 「끝 지점 옮기기」](<W05_배경_스테이지3(실습).md>)
 
 **5) 시작 배너와 클리어 화면의 위치를 조정합니다** (원하는 경우).
 
@@ -251,7 +248,7 @@ Tools > Class Template > Add HP Item Box To Scene
 | **Play하자마자 일시정지 메뉴가 떠 있음** | 위와 같음 (`Toggle Pause Menu Preview`) |
 | **맞춰놓은 UI 위치가 원래대로 돌아감** | `BackgroundTest`에서 옮긴 뒤 `Sync Player & HUD From ActionTest`를 실행함. **위치는 `ActionTest`에서** |
 | 클리어가 안 됨 | `LevelClearObject`를 씬에 배치하지 않았거나, 플레이어가 닿을 수 없는 위치에 있음 |
-| 클리어 오브젝트가 이상한 위치에 그려짐 | 그림을 "정가운데" 기준으로 그리지 않았음 |
+| 클리어 오브젝트가 공중에 뜨거나 땅에 묻힘 | 물건 밑동을 **캔버스 맨 아래**에 붙여 그리지 않았거나, 캔버스가 **500 x 500** 이 아님 → [5주차 본문](<W05_배경_스테이지1(기본).md>) |
 | HP 칸이 이상하게 겹침 | `hp_dot` 크기가 35x35가 아님 |
 | 팝업(조작설명/설정)이 임시 그림 | **정상입니다.** 팝업은 `UI/Title` 폴더 담당 - 7주차에 만듭니다 |
 
@@ -275,7 +272,8 @@ Tools > Class Template > Add HP Item Box To Scene
 
 **플레이 중 화면에 뜨는 UI 전부를 러프(스케치) 상태로 제작하고 Unity에 적용하기**
 
-- HUD (HP · 스페셜 게이지) / 일시정지 메뉴 / 사망 화면 / 시작·클리어 배너 / 클리어 오브젝트
+- HUD (HP · 스페셜 게이지) / 일시정지 메뉴 / 사망 화면 / 시작·클리어 배너
+- (클리어 오브젝트는 5주차에 했습니다)
 - 완성본이 아닌 **스케치 버전의 러프** 상태
 - 스케치지만 **디자인 컨셉은 담겨 있어야 함** (컬러링 X)
 - **픽셀 규격은 러프에서도 정확히 지킬 것**
@@ -293,10 +291,9 @@ Tools > Class Template > Add HP Item Box To Scene
 - [ ] HUD 5개 파일이 규격 크기(591x155 / 35x35 / 326x66)와 일치하는가
 - [ ] 버튼이 전부 **307x82px** 이고 `_normal` / `_hover` / `_click` 3장씩 있는가
 - [ ] `pause.png`가 122x122, `deathcut.png`가 700x499, 배너가 580x330인가
-- [ ] `level_clear_object.png`를 **정가운데 기준**으로 그렸는가
 - [ ] `BackgroundTest`에서 `Add All HUD & Systems To Background Test Scene` 을 실행했는가
 - [ ] UI 위치는 `ActionTest`에서 맞추고 `Sync Player & HUD From ActionTest` 를 실행했는가
-- [ ] `LevelClearObject`를 스테이지에 배치했는가
+- [ ] 5주차에 놓은 `LevelClearObject` 가 스테이지 끝에 그대로 있는가
 - [ ] **Preview 토글을 전부 끄고 저장했는가** (Play 시작 화면이 정상인지 확인)
 - [ ] 죽어보기 / 클리어하기 둘 다 실제로 되는가
 - [ ] Ctrl+S → Commit → **Push까지 완료**했는가
@@ -306,6 +303,6 @@ Tools > Class Template > Add HP Item Box To Scene
 ## 관련 문서
 
 - `Assets/_Project/04_Art/StudentReplace/UI/HUD(PauseMenu, DeathScreen, StageStart, StageClear)/readme.txt`
-- `Assets/_Project/04_Art/StudentReplace/Environment/LevelClearObject/readme.txt`
+- 클리어 오브젝트 → [5주차 본문 「클리어 오브젝트」](<W05_배경_스테이지1(기본).md>)
 - [04_Unity_적용_가이드](../기본설명/04_Unity_적용_가이드.md) - "HUD/시스템 한 번에 추가하기"
 - [W06 보조자료 - Inspector 항목 설명](W06_플레이HUD_메뉴_인스팩터.md) - **Inspector 항목이 뭐가 뭔지 모르겠을 때**
