@@ -242,7 +242,8 @@ Tools > Class Template > Add HP Item Box To Scene
 | 증상 | 원인 |
 |---|---|
 | UI가 임시 그림 그대로 | 파일명 오타, 또는 `Add All HUD & Systems...` 미실행 |
-| 버튼이 찌그러져 보임 | 픽셀 크기가 규격과 다름 → `Image` 컴포넌트의 **`Set Native Size`** |
+| 버튼이 다른 버튼보다 **작게** 보이거나, 마우스를 올리면 **덜컹거림** (찌그러지지는 않음 - 비율은 유지됨) | **그림 파일이 규격(307x82)과 다름** → 그림을 307x82로 **다시 그려서** 덮어쓰기. 3상태(normal / hover / click) 모두 같은 크기로. `Set Native Size` 로는 해결되지 않습니다 |
+| 그림은 규격대로인데 버튼 칸만 커지거나 작아짐 | Unity에서 버튼 크기를 실수로 바꿨음 → `Image` 컴포넌트의 **`Set Native Size`** |
 | 마우스를 올려도 그림이 안 바뀜 | `_hover` / `_click` 파일이 없거나 이름이 틀림 |
 | **Play하자마자 클리어 화면이 떠 있음** | `Toggle Stage Clear Panel Preview`를 켠 채로 저장했음 → 다시 눌러 끄고 Ctrl+S |
 | **Play하자마자 일시정지 메뉴가 떠 있음** | 위와 같음 (`Toggle Pause Menu Preview`) |
