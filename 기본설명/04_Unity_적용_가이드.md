@@ -144,7 +144,7 @@ Tools > Class Template > Add Weather Effect To Scene
 
 | 모듈 | 역할 |
 |---|---|
-| Main - Start Color | 흰색으로 유지할 것 (다른 색을 넣으면 그림에 색이 덧입혀짐) |
+| 맨 위 첫 칸 → Start Color (칸 제목은 오브젝트 이름) | 흰색으로 유지할 것 (다른 색을 넣으면 그림에 색이 덧입혀짐) |
 | Emission - Rate over Time | 파티클이 얼마나 자주 생기는지 - 많이 올릴 땐 `Max Particles`도 같이 올려야 함 (안 올리면 조용히 상한에 걸림) |
 | Shape | 파티클이 생기는 영역 (Box = 화면 위쪽 넓은 영역) |
 | Velocity over Lifetime | Y값이 떨어지는 속도, X값이 좌우로 흔들리는 정도 (실제로 "떨어지게" 만드는 건 Start Speed가 아니라 이 값) |
