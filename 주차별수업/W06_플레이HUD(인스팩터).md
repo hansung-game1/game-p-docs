@@ -165,7 +165,7 @@ Tools > Class Template > Sync Player & HUD From ActionTest
 | **사망 화면** · **일시정지 메뉴** | **`ActionTest`** | 〃 (평소 꺼져 있어도 마찬가지입니다) |
 | **시작 배너** · **클리어 화면** | **`BackgroundTest`** | **`ActionTest`에는 없습니다** |
 
-**시작 배너와 클리어 화면은 "스테이지"의 물건**입니다. `ActionTest`는 동작만 시험하는 씬이라 시작도 끝도 없으니 이 둘이 존재하지 않습니다. `Add Stage Start & Clear To Scene` 메뉴도 **`ActionTest`에서는 회색으로 비활성**입니다.
+**시작 배너와 클리어 화면은 "스테이지"의 물건**입니다. `ActionTest`는 동작만 시험하는 씬이라 시작도 끝도 없으니 이 둘이 존재하지 않습니다. `Add Stage Start & Clear To Background Test Scene` 메뉴도 **`ActionTest`에서는 회색으로 비활성**입니다.
 
 > **정리하면 이렇습니다.**
 >
