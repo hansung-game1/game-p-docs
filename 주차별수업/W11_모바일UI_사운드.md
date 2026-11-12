@@ -203,7 +203,15 @@ BGM과 달리 **파일명이 정해져 있습니다.** 이름이 틀리면 에�
 |---|---|
 | `SFX/Items/` | `hpitem` (HP 회복 아이템 획득) |
 
-> **확장자는 자유입니다** (`player_jump.wav`, `player_jump.mp3`, `player_jump.ogg` 다 됨). **이름 부분만 정확히** 맞추면 됩니다.
+> **확장자는 자유입니다** (`player_jump.wav`, `player_jump.mp3`, `player_jump.ogg` 다 됨). **이름 부분만 정확히** 맞추면 됩니다. 대문자 · 소문자도 그대로 맞춰야 합니다 (`Player_Jump` ✕).
+
+> ⚠️ **`hpitem` 만 예외입니다 - 반드시 `hpitem.mp3` 로 덮어쓰세요.**
+> HP 상자는 이름으로 소리를 찾지 않고 **원래 들어 있던 `hpitem.mp3` 파일을 직접 연결**해 둡니다.
+> - `hpitem.mp3` 라는 **같은 이름으로 덮어쓰기** → 정상
+> - `hpitem.wav` · `hpitem.ogg` 를 넣고 mp3를 지움 → **경고 없이 소리가 안 남**
+> - wav · ogg 를 mp3 옆에 같이 둠 → **템플릿 원래 소리가 그대로 남**
+>
+> 만든 소리가 wav · ogg 라면 **mp3로 변환한 뒤** 이름을 `hpitem.mp3` 로 해서 덮어쓰세요. 덮어쓰기라 따로 실행할 명령은 없습니다.
 
 ### 적용 명령
 
@@ -290,6 +298,7 @@ Tools > Class Template > Wire MonsterC SFX Clips
 | ActionTest에선 나는데 다른 씬에선 안 남 | 몬스터: `Apply Monster ○ Settings To Prefab` 미실행 |
 | BGM이 안 나옴 | 폴더 위치 확인 (스테이지1은 `BGM/` **바로 아래**) + `Add Background Music To Scene` 실행 |
 | 사망 화면 사운드만 안 남 | 파일명이 **`deathscreen_bgm`** 으로 시작하는지 |
+| HP 아이템 먹는 소리만 안 남 · 원래 소리가 남 | **`hpitem.mp3` 로 덮어썼는지** (wav · ogg 안 됨, 위 ⚠️ 참고) |
 | BGM이 여러 개 겹쳐서 나옴 | 한 폴더에 파일이 2개 이상 들어 있음 |
 | 소리가 너무 큼/작음 | `AudioSource`의 `Volume` 조절 |
 | 모바일 UI가 PC에서 안 보임 | **정상입니다** |
