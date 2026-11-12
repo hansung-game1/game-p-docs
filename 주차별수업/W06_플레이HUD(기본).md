@@ -205,6 +205,7 @@ Tools > Class Template > Toggle Pause Menu Preview
 Tools > Class Template > Toggle Stage Clear Panel Preview
 ```
 
+> [!CAUTION]
 > ⚠️ **위치를 다 맞췄으면 반드시 ① 버튼을 다시 눌러 끄고 → ② Ctrl+S 순서로 저장하세요.**
 > 켜놓은 채로 저장하면, **Play를 시작하자마자 클리어 화면이 이미 떠 있는 채로 시작**해버립니다.
 > (실수로 켜둔 채 저장해도 자동으로 꺼주는 안전장치가 들어 있지만, 습관을 들이는 편이 안전합니다.)
