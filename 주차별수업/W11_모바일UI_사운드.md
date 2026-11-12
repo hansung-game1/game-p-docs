@@ -69,6 +69,7 @@ attack_special_button_normal.png  / attack_special_button_pressed.png   필살�
 
 **2) `ActionTest` 씬을 엽니다.**
 
+> [!CAUTION]
 > ### ⚠️ 모바일 UI도 **`ActionTest` 씬에서 고칩니다**
 >
 > **6주차 HUD와 완전히 같은 규칙입니다.** 모바일 조작 버튼은 `MobileControlsCanvas` 하나에 전부 들어 있고, **`ActionTest`에 있는 것이 원본**입니다.
@@ -143,6 +144,7 @@ Assets/_Project/06_Audio/BGM/
 - **각 폴더에 음원 파일을 하나만** 넣습니다. 파일명은 자유(mp3/wav/ogg 무관)
 - 파일이 여러 개면 알파벳순 첫 번째만 쓰이고 경고가 뜹니다
 
+> [!CAUTION]
 > ⚠️ **`DeathScreen` 폴더만 예외입니다.** 파일명이 반드시 **`deathscreen_bgm`으로 시작**해야 합니다 (`deathscreen_bgm.mp3` 등). 다른 이름이면 자동으로 못 찾습니다.
 
 > **스테이지1 BGM은 하위 폴더가 아니라 `BGM` 폴더 바로 아래**에 넣습니다. 헷갈리기 쉬우니 주의하세요.
@@ -205,6 +207,7 @@ BGM과 달리 **파일명이 정해져 있습니다.** 이름이 틀리면 에�
 
 > **확장자는 자유입니다** (`player_jump.wav`, `player_jump.mp3`, `player_jump.ogg` 다 됨). **이름 부분만 정확히** 맞추면 됩니다. 대문자 · 소문자도 그대로 맞춰야 합니다 (`Player_Jump` ✕).
 
+> [!CAUTION]
 > ⚠️ **`hpitem` 만 예외입니다 - 반드시 `hpitem.mp3` 로 덮어쓰세요.**
 > HP 상자는 이름으로 소리를 찾지 않고 **원래 들어 있던 `hpitem.mp3` 파일을 직접 연결**해 둡니다.
 > - `hpitem.mp3` 라는 **같은 이름으로 덮어쓰기** → 정상
