@@ -70,11 +70,11 @@ attack_special_button_normal.png  / attack_special_button_pressed.png   필살�
 **2) `ActionTest` 씬을 엽니다.**
 
 > [!CAUTION]
-> ### ⚠️ 모바일 UI도 **`ActionTest` 씬에서 고칩니다**
+> ### ⚠️ $`\color{red}\text{모바일}`$ $`\color{red}\text{UI도}`$ $`\color{red}\texttt{ActionTest}`$ $`\color{red}\textbf{씬에서}`$ $`\color{red}\textbf{고칩니다}`$
 >
-> **6주차 HUD와 완전히 같은 규칙입니다.** 모바일 조작 버튼은 `MobileControlsCanvas` 하나에 전부 들어 있고, **`ActionTest`에 있는 것이 원본**입니다.
+> $`\color{red}\textbf{6주차}`$ $`\color{red}\textbf{HUD와}`$ $`\color{red}\textbf{완전히}`$ $`\color{red}\textbf{같은}`$ $`\color{red}\textbf{규칙입니다.}`$ $`\color{red}\text{모바일}`$ $`\color{red}\text{조작}`$ $`\color{red}\text{버튼은}`$ $`\color{red}\texttt{MobileControlsCanvas}`$ $`\color{red}\text{하나에}`$ $`\color{red}\text{전부}`$ $`\color{red}\text{들어}`$ $`\color{red}\text{있고,}`$ $`\color{red}\texttt{ActionTest}\textbf{에}`$ $`\color{red}\textbf{있는}`$ $`\color{red}\textbf{것이}`$ $`\color{red}\textbf{원본}\text{입니다.}`$
 >
-> **`BackgroundTest`에서 위치를 고치면, 아래 5)를 한 번이라도 실행하는 순간 `ActionTest`의 위치로 덮어써집니다.** 애써 맞춘 것이 사라집니다.
+> $`\color{red}\texttt{BackgroundTest}\textbf{에서}`$ $`\color{red}\textbf{위치를}`$ $`\color{red}\textbf{고치면,}`$ $`\color{red}\textbf{아래}`$ $`\color{red}\textbf{5)를}`$ $`\color{red}\textbf{한}`$ $`\color{red}\textbf{번이라도}`$ $`\color{red}\textbf{실행하는}`$ $`\color{red}\textbf{순간}`$ $`\color{red}\texttt{ActionTest}\textbf{의}`$ $`\color{red}\textbf{위치로}`$ $`\color{red}\textbf{덮어써집니다.}`$ $`\color{red}\text{애써}`$ $`\color{red}\text{맞춘}`$ $`\color{red}\text{것이}`$ $`\color{red}\text{사라집니다.}`$
 
 **3) 반영:**
 
@@ -145,7 +145,7 @@ Assets/_Project/06_Audio/BGM/
 - 파일이 여러 개면 알파벳순 첫 번째만 쓰이고 경고가 뜹니다
 
 > [!CAUTION]
-> ⚠️ **`DeathScreen` 폴더만 예외입니다.** 파일명이 반드시 **`deathscreen_bgm`으로 시작**해야 합니다 (`deathscreen_bgm.mp3` 등). 다른 이름이면 자동으로 못 찾습니다.
+> ⚠️ $`\color{red}\texttt{DeathScreen}`$ $`\color{red}\textbf{폴더만}`$ $`\color{red}\textbf{예외입니다.}`$ $`\color{red}\text{파일명이}`$ $`\color{red}\text{반드시}`$ $`\color{red}\texttt{deathscreen\_bgm}\textbf{으로}`$ $`\color{red}\textbf{시작}\text{해야}`$ $`\color{red}\text{합니다}`$ $`\color{red}\text{(}\texttt{deathscreen\_bgm.mp3}`$ $`\color{red}\text{등).}`$ $`\color{red}\text{다른}`$ $`\color{red}\text{이름이면}`$ $`\color{red}\text{자동으로}`$ $`\color{red}\text{못}`$ $`\color{red}\text{찾습니다.}`$
 
 > **스테이지1 BGM은 하위 폴더가 아니라 `BGM` 폴더 바로 아래**에 넣습니다. 헷갈리기 쉬우니 주의하세요.
 
@@ -208,13 +208,13 @@ BGM과 달리 **파일명이 정해져 있습니다.** 이름이 틀리면 에�
 > **확장자는 자유입니다** (`player_jump.wav`, `player_jump.mp3`, `player_jump.ogg` 다 됨). **이름 부분만 정확히** 맞추면 됩니다. 대문자 · 소문자도 그대로 맞춰야 합니다 (`Player_Jump` ✕).
 
 > [!CAUTION]
-> ⚠️ **`hpitem` 만 예외입니다 - 반드시 `hpitem.mp3` 로 덮어쓰세요.**
-> HP 상자는 이름으로 소리를 찾지 않고 **원래 들어 있던 `hpitem.mp3` 파일을 직접 연결**해 둡니다.
-> - `hpitem.mp3` 라는 **같은 이름으로 덮어쓰기** → 정상
-> - `hpitem.wav` · `hpitem.ogg` 를 넣고 mp3를 지움 → **경고 없이 소리가 안 남**
-> - wav · ogg 를 mp3 옆에 같이 둠 → **템플릿 원래 소리가 그대로 남**
+> ⚠️ $`\color{red}\texttt{hpitem}`$ $`\color{red}\textbf{만}`$ $`\color{red}\textbf{예외입니다}`$ $`\color{red}\textbf{-}`$ $`\color{red}\textbf{반드시}`$ $`\color{red}\texttt{hpitem.mp3}`$ $`\color{red}\textbf{로}`$ $`\color{red}\textbf{덮어쓰세요.}`$
+> $`\color{red}\text{HP}`$ $`\color{red}\text{상자는}`$ $`\color{red}\text{이름으로}`$ $`\color{red}\text{소리를}`$ $`\color{red}\text{찾지}`$ $`\color{red}\text{않고}`$ $`\color{red}\textbf{원래}`$ $`\color{red}\textbf{들어}`$ $`\color{red}\textbf{있던}`$ $`\color{red}\texttt{hpitem.mp3}`$ $`\color{red}\textbf{파일을}`$ $`\color{red}\textbf{직접}`$ $`\color{red}\textbf{연결}\text{해}`$ $`\color{red}\text{둡니다.}`$
+> - $`\color{red}\texttt{hpitem.mp3}`$ $`\color{red}\text{라는}`$ $`\color{red}\textbf{같은}`$ $`\color{red}\textbf{이름으로}`$ $`\color{red}\textbf{덮어쓰기}`$ $`\color{red}\text{→}`$ $`\color{red}\text{정상}`$
+> - $`\color{red}\texttt{hpitem.wav}`$ $`\color{red}\text{·}`$ $`\color{red}\texttt{hpitem.ogg}`$ $`\color{red}\text{를}`$ $`\color{red}\text{넣고}`$ $`\color{red}\text{mp3를}`$ $`\color{red}\text{지움}`$ $`\color{red}\text{→}`$ $`\color{red}\textbf{경고}`$ $`\color{red}\textbf{없이}`$ $`\color{red}\textbf{소리가}`$ $`\color{red}\textbf{안}`$ $`\color{red}\textbf{남}`$
+> - $`\color{red}\text{wav}`$ $`\color{red}\text{·}`$ $`\color{red}\text{ogg}`$ $`\color{red}\text{를}`$ $`\color{red}\text{mp3}`$ $`\color{red}\text{옆에}`$ $`\color{red}\text{같이}`$ $`\color{red}\text{둠}`$ $`\color{red}\text{→}`$ $`\color{red}\textbf{템플릿}`$ $`\color{red}\textbf{원래}`$ $`\color{red}\textbf{소리가}`$ $`\color{red}\textbf{그대로}`$ $`\color{red}\textbf{남}`$
 >
-> 만든 소리가 wav · ogg 라면 **mp3로 변환한 뒤** 이름을 `hpitem.mp3` 로 해서 덮어쓰세요. 덮어쓰기라 따로 실행할 명령은 없습니다.
+> $`\color{red}\text{만든}`$ $`\color{red}\text{소리가}`$ $`\color{red}\text{wav}`$ $`\color{red}\text{·}`$ $`\color{red}\text{ogg}`$ $`\color{red}\text{라면}`$ $`\color{red}\textbf{mp3로}`$ $`\color{red}\textbf{변환한}`$ $`\color{red}\textbf{뒤}`$ $`\color{red}\text{이름을}`$ $`\color{red}\texttt{hpitem.mp3}`$ $`\color{red}\text{로}`$ $`\color{red}\text{해서}`$ $`\color{red}\text{덮어쓰세요.}`$ $`\color{red}\text{덮어쓰기라}`$ $`\color{red}\text{따로}`$ $`\color{red}\text{실행할}`$ $`\color{red}\text{명령은}`$ $`\color{red}\text{없습니다.}`$
 
 ### 적용 명령
 
