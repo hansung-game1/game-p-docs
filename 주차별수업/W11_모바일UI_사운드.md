@@ -123,29 +123,29 @@ Tools > Class Template > Sync Player & HUD From ActionTest
 | 폴더 | `06_Audio/BGM/` | `06_Audio/SFX/` |
 | 나뉜 기준 | **화면(씬)별** | **캐릭터별** |
 | 길이 | 길게, 반복 재생 | 짧게, 1회 재생 |
-| 파일명 규칙 | **대부분 자유** (폴더에 하나만) | **정확히 지켜야 함** |
+| 파일명 규칙 | **원래 파일과 같은 이름** | **원래 파일과 같은 이름** |
 
-파일 형식은 **MP3 / WAV / OGG 모두 가능**합니다.
+**규칙은 하나입니다 - 템플릿에 원래 들어 있던 파일과 같은 이름으로 바꿔 넣습니다.** 새로 추가하는 것이 아니라 하나씩 교체하는 것입니다.
+
+파일 형식은 **MP3 / WAV / OGG 모두 가능**합니다. 확장자는 원래 파일과 달라도 됩니다(**`hpitem` 하나만 예외** - B-3 아이템 참고).
 
 ## B-2. BGM - 화면별로 폴더에 하나씩
 
 ```
 Assets/_Project/06_Audio/BGM/
- ├─ (BGM 폴더 바로 아래)   ← 스테이지1(BackgroundTest) 배경음악
- ├─ Title/                 ← 타이틀 화면
- ├─ IntroCutscene/         ← 인트로 컷신
- ├─ EndingCutscene/        ← 엔딩 컷신
- ├─ LevelClear/            ← 스테이지 클리어 화면
- └─ DeathScreen/           ← 사망 화면
+ ├─ bgm                          ← 스테이지1(BackgroundTest) 배경음악 (BGM 폴더 바로 아래)
+ ├─ Title/title_bgm              ← 타이틀 화면
+ ├─ IntroCutscene/intro_cutscene_bgm  ← 인트로 컷신
+ ├─ EndingCutscene/ending_bgm    ← 엔딩 컷신
+ ├─ LevelClear/level_clear_bgm   ← 스테이지 클리어 화면
+ └─ DeathScreen/deathscreen_bgm  ← 사망 화면
 ```
 
 ### 규칙
 
-- **각 폴더에 음원 파일을 하나만** 넣습니다. 파일명은 자유(mp3/wav/ogg 무관)
-- 파일이 여러 개면 알파벳순 첫 번째만 쓰이고 경고가 뜹니다
-
-> [!CAUTION]
-> ⚠️ **`DeathScreen` 폴더만 예외입니다.** 파일명이 반드시 **`deathscreen_bgm`으로 시작**해야 합니다 (`deathscreen_bgm.mp3` 등). 다른 이름이면 자동으로 못 찾습니다.
+- **원래 들어 있던 파일과 같은 이름으로** 넣습니다. 확장자(mp3/wav/ogg)는 달라도 됩니다
+- **확장자가 다르면 원래 파일을 먼저 지우세요.** 같은 이름이 둘이면 어느 쪽이 쓰일지 알 수 없습니다 (각 폴더에 음원은 하나만)
+- 확장자가 바뀐 것도 **새 파일**이므로 아래 적용 명령을 다시 실행합니다. 같은 이름 · 같은 확장자로 덮어쓴 경우에는 실행하지 않아도 됩니다
 
 > **스테이지1 BGM은 하위 폴더가 아니라 `BGM` 폴더 바로 아래**에 넣습니다. 헷갈리기 쉬우니 주의하세요.
 
@@ -174,7 +174,7 @@ Assets/_Project/06_Audio/BGM/
 
 ## B-3. SFX(효과음) - 파일명을 정확히 맞춰야 합니다
 
-BGM과 달리 **파일명이 정해져 있습니다.** 이름이 틀리면 에러 없이 조용히 안 납니다.
+BGM과 같은 규칙입니다. **원래 들어 있던 파일과 같은 이름으로** 넣습니다. 이름이 틀리면 에러 없이 조용히 안 납니다.
 
 ### 플레이어 - `06_Audio/SFX/Player/`
 
@@ -205,7 +205,7 @@ BGM과 달리 **파일명이 정해져 있습니다.** 이름이 틀리면 에�
 |---|---|
 | `SFX/Items/` | `hpitem` (HP 회복 아이템 획득) |
 
-> **확장자는 자유입니다** (`player_jump.wav`, `player_jump.mp3`, `player_jump.ogg` 다 됨). **이름 부분만 정확히** 맞추면 됩니다. 대문자 · 소문자도 그대로 맞춰야 합니다 (`Player_Jump` ✕).
+> **확장자는 자유입니다** (`player_jump.wav`, `player_jump.mp3`, `player_jump.ogg` 다 됨). **이름 부분만 정확히** 맞추면 됩니다. 대문자 · 소문자도 그대로 맞춰야 합니다 (`Player_Jump` ✕). 확장자가 원래 파일과 다르면 **원래 파일은 지우세요** (같은 이름이 둘이 되면 안 됩니다 - [W02 실습](<W02_플레이어_캐릭터3(실습).md>)과 같은 원리).
 
 > [!CAUTION]
 > ⚠️ **`hpitem` 만 예외입니다 - 반드시 `hpitem.mp3` 로 덮어쓰세요.**
@@ -300,7 +300,8 @@ Tools > Class Template > Wire MonsterC SFX Clips
 | 효과음이 하나도 안 남 | `Wire ○ SFX Clips` 미실행 |
 | ActionTest에선 나는데 다른 씬에선 안 남 | 몬스터: `Apply Monster ○ Settings To Prefab` 미실행 |
 | BGM이 안 나옴 | 폴더 위치 확인 (스테이지1은 `BGM/` **바로 아래**) + `Add Background Music To Scene` 실행 |
-| 사망 화면 사운드만 안 남 | 파일명이 **`deathscreen_bgm`** 으로 시작하는지 |
+| 바꿨는데 원래 소리가 그대로 남 | 확장자가 달라서 **원래 파일이 아직 남아 있음** → 원래 파일 삭제 후 적용 명령 다시 실행 |
+| 사망 화면 사운드만 안 남 | 파일명이 정확히 **`deathscreen_bgm`** 인지 (`deathscreen_bgm_final` ✕) |
 | HP 아이템 먹는 소리만 안 남 · 원래 소리가 남 | **`hpitem.mp3` 로 덮어썼는지** (wav · ogg 안 됨, 위 ⚠️ 참고) |
 | BGM이 여러 개 겹쳐서 나옴 | 한 폴더에 파일이 2개 이상 들어 있음 |
 | 소리가 너무 큼/작음 | `AudioSource`의 `Volume` 조절 |
@@ -348,7 +349,7 @@ Tools > Class Template > Wire MonsterC SFX Clips
 - [ ] `ActionTest` 씬에서 `Add Mobile Controls To Scene` 실행하고 **버튼 위치까지 맞췄는가**
 - [ ] `Sync Player & HUD From ActionTest` 로 다른 스테이지 씬에 반영했는가
 - [ ] BGM 폴더마다 파일이 **하나씩만** 들어 있는가
-- [ ] 사망 화면 사운드 파일명이 **`deathscreen_bgm`** 으로 시작하는가
+- [ ] 모든 사운드 파일이 **원래 파일과 같은 이름**인가 (확장자를 바꿨다면 원래 파일은 지웠는가, `hpitem` 은 `hpitem.mp3`)
 - [ ] 효과음 파일명이 규칙과 정확히 일치하는가
 - [ ] `Wire Player/MonsterA/B/C SFX Clips` 를 **4개 다** 실행했는가
 - [ ] 몬스터 3종에 **`Apply Monster ○ Settings To Prefab`** 을 눌렀는가
